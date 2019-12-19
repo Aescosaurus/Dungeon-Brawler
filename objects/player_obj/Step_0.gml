@@ -22,7 +22,7 @@ if( len > 0.0 )
 // Handle shooting magic missiles.
 if( timer_update( shoot_timer ) && len > 0.0 )
 {
-	shoot_timer = timer_reset( shoot_timer )
+	timer_reset( shoot_timer )
 	
 	var bullet = instance_create_layer( x,y,"instances",magic_missile_obj )
 	bullet.x_vel = x_vel / len
