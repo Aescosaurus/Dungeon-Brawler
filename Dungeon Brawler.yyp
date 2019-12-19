@@ -47,6 +47,14 @@
             }
         },
         {
+            "Key": "0b6e2dac-e06b-49ff-bf48-167237d81e61",
+            "Value": {
+                "id": "08a7081c-2113-4945-a01a-7e816699532a",
+                "resourcePath": "objects\\enemy_slime_obj\\enemy_slime_obj.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "15c05514-8821-44b8-8253-10021ca62086",
             "Value": {
                 "id": "f85aaa7f-2e70-4674-8c4d-d8eacd1cbd28",
@@ -143,6 +151,14 @@
             }
         },
         {
+            "Key": "458e176f-2379-46cd-b03f-5290144c1b78",
+            "Value": {
+                "id": "0f4f6a47-df8a-47f4-923e-b3d949284536",
+                "resourcePath": "scripts\\ai_maintain_distance\\ai_maintain_distance.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "53f1d3dc-48c3-4b3e-9b90-6e0d18601e5f",
             "Value": {
                 "id": "57deb995-2724-439a-bbeb-b3b13e5d8a04",
@@ -196,6 +212,30 @@
                 "id": "0107ef29-ad9a-4279-adba-0df22167151d",
                 "resourcePath": "objects\\player_obj\\player_obj.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "82013704-bd88-495a-9ca2-0775c88127b4",
+            "Value": {
+                "id": "fea43202-11c3-4ce7-9d1a-5e541753755a",
+                "resourcePath": "scripts\\get_player\\get_player.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "8dbcf343-27b5-47f7-a481-307ca65bd073",
+            "Value": {
+                "id": "ce9b6893-ef32-4e0b-b491-199e4e40157c",
+                "resourcePath": "scripts\\play_walk_anim\\play_walk_anim.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "a46a1e9e-018c-4198-b93e-da8fc284f8a5",
+            "Value": {
+                "id": "cfc066b8-94c4-4612-944e-b268ce18ebcb",
+                "resourcePath": "scripts\\ai_follow_target\\ai_follow_target.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -302,7 +342,11 @@
         "a49f6b32-15d8-45e6-a7da-9ab61c1caadc",
         "42cd1ff3-43ef-4685-ab12-f29d383ac362",
         "f9d86c39-3828-487a-99fe-36d21ec31417",
-        "3a75b465-0ec8-4673-8dbe-9573063b6487"
+        "3a75b465-0ec8-4673-8dbe-9573063b6487",
+        "82013704-bd88-495a-9ca2-0775c88127b4",
+        "8dbcf343-27b5-47f7-a481-307ca65bd073",
+        "a46a1e9e-018c-4198-b93e-da8fc284f8a5",
+        "458e176f-2379-46cd-b03f-5290144c1b78"
     ],
     "tutorial": ""
 }

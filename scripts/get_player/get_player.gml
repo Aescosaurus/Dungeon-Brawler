@@ -1,0 +1,1 @@
+return( instance_find( player_obj,0 ) )
