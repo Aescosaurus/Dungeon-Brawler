@@ -360,9 +360,9 @@
         }
     ],
     "script_order": [
-        "751fab79-45fc-4c7e-859f-eb2d1bbcd86d",
         "cde18682-d6b0-449f-a004-6f9b24513677",
-        "faf3a3b6-ac00-4655-a489-4664f43de4bd"
+        "faf3a3b6-ac00-4655-a489-4664f43de4bd",
+        "751fab79-45fc-4c7e-859f-eb2d1bbcd86d"
     ],
     "tutorial": ""
 }
