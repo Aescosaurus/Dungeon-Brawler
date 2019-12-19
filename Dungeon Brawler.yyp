@@ -39,6 +39,14 @@
             }
         },
         {
+            "Key": "0b296509-654a-418e-bc75-8cd3e6c0465f",
+            "Value": {
+                "id": "0e1365de-9720-4e9b-a741-01badedd9cf2",
+                "resourcePath": "sprites\\enemy_snake_spr\\enemy_snake_spr.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "15c05514-8821-44b8-8253-10021ca62086",
             "Value": {
                 "id": "f85aaa7f-2e70-4674-8c4d-d8eacd1cbd28",
@@ -140,6 +148,14 @@
                 "id": "57deb995-2724-439a-bbeb-b3b13e5d8a04",
                 "resourcePath": "rooms\\main_room\\main_room.yy",
                 "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "5788157c-50bb-4edc-9113-66be915c23e7",
+            "Value": {
+                "id": "be106dd1-29ae-473f-bef0-ff9176de739b",
+                "resourcePath": "sprites\\enemy_slime_spr\\enemy_slime_spr.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
