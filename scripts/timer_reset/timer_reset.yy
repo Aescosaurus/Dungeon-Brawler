@@ -1,8 +1,8 @@
 {
-    "id": "faf3a3b6-ac00-4655-a489-4664f43de4bd",
+    "id": "3a75b465-0ec8-4673-8dbe-9573063b6487",
     "modelName": "GMScript",
     "mvc": "1.0",
-    "name": "len_scr",
+    "name": "timer_reset",
     "IsCompatibility": false,
     "IsDnD": false
 }

@@ -1,8 +1,8 @@
 {
-    "id": "751fab79-45fc-4c7e-859f-eb2d1bbcd86d",
+    "id": "f9d86c39-3828-487a-99fe-36d21ec31417",
     "modelName": "GMScript",
     "mvc": "1.0",
-    "name": "delta_time_scr",
+    "name": "timer_update",
     "IsCompatibility": false,
     "IsDnD": false
 }
