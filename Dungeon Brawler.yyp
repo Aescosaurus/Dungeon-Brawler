@@ -71,6 +71,14 @@
             }
         },
         {
+            "Key": "238122b4-feb1-4bb6-943d-638e8e80c467",
+            "Value": {
+                "id": "4a32cb3d-6fea-47fe-80f4-289bb87f9f86",
+                "resourcePath": "scripts\\spawn_particles\\spawn_particles.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "2429f541-8391-4bec-8c13-c0716d3cd1e9",
             "Value": {
                 "id": "bcad0786-498c-41a1-a12e-0e191fd7dea7",
@@ -279,6 +287,14 @@
             }
         },
         {
+            "Key": "a4f82f75-ef42-4133-9543-844d2b1e068c",
+            "Value": {
+                "id": "f5d39804-57b3-43a1-956a-c75bc3d87bda",
+                "resourcePath": "sprites\\enemy_slime_particle_spr\\enemy_slime_particle_spr.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "a6e7ea14-73b5-4545-9438-b8fdb3f14db2",
             "Value": {
                 "id": "1a199507-ad61-42cf-ad83-d14ec8e4dbc1",
@@ -306,7 +322,7 @@
             "Key": "cb815613-70cb-43b6-a8bb-e39a4f5dbd9d",
             "Value": {
                 "id": "976c8498-f45d-4db5-a500-c75ba9c5cf97",
-                "resourcePath": "objects\\magic_missile_particle_obj\\magic_missile_particle_obj.yy",
+                "resourcePath": "objects\\particle_obj\\particle_obj.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -387,7 +403,8 @@
         "8dbcf343-27b5-47f7-a481-307ca65bd073",
         "a46a1e9e-018c-4198-b93e-da8fc284f8a5",
         "458e176f-2379-46cd-b03f-5290144c1b78",
-        "4e58ea7d-e6ff-4c31-b423-bf6f6b9dabf9"
+        "4e58ea7d-e6ff-4c31-b423-bf6f6b9dabf9",
+        "238122b4-feb1-4bb6-943d-638e8e80c467"
     ],
     "tutorial": ""
 }

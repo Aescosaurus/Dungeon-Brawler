@@ -2,7 +2,7 @@
     "id": "cb815613-70cb-43b6-a8bb-e39a4f5dbd9d",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "magic_missile_particle_obj",
+    "name": "particle_obj",
     "eventList": [
         {
             "id": "b0b9119d-6162-469a-9879-9bcf28c55b93",
@@ -43,6 +43,6 @@
     "physicsStartAwake": true,
     "properties": null,
     "solid": false,
-    "spriteId": "429a4c67-6375-4ac0-ac92-90c201ad2ce7",
+    "spriteId": "00000000-0000-0000-0000-000000000000",
     "visible": true
 }

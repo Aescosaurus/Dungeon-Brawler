@@ -1,6 +1,3 @@
-for( var i = 0; i < 5; ++i )
-{
-	instance_create_layer( x,y,"instances",magic_missile_particle_obj )
-}
+spawn_particles( x,y,magic_missile_particle_spr,random_range( 3,5 ) )
 
 instance_destroy()

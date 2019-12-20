@@ -27,6 +27,7 @@ if( timer_update( target_timer ) )
 		var len = get_len( x_diff,y_diff )
 		x_vel = x_diff / len
 		y_vel = y_diff / len
+		image_angle = radtodeg( -arctan2( y_vel,x_vel ) + pi + pi / 4.0 )
 	}
 }
 
