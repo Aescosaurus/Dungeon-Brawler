@@ -1,4 +1,4 @@
-hp = 3
+hp = 5
 
 anim_timer = timer_create( 1.0 )
 move_speed = 12.4
