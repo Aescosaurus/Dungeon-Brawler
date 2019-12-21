@@ -2,7 +2,7 @@
     "id": "6869bf71-0094-47da-9e50-5ac57413124c",
     "modelName": "GMSprite",
     "mvc": "1.12",
-    "name": "player_spr",
+    "name": "player_mage_spr",
     "For3D": false,
     "HTile": false,
     "VTile": false,

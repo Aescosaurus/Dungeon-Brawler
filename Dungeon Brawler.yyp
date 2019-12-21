@@ -71,6 +71,14 @@
             }
         },
         {
+            "Key": "1f5bb3c6-1fa2-4029-b659-a2e6465dcf30",
+            "Value": {
+                "id": "503414cd-0235-4afe-a269-bbd8a2cbfd56",
+                "resourcePath": "tilesets\\sandy_tileset\\sandy_tileset.yy",
+                "resourceType": "GMTileSet"
+            }
+        },
+        {
             "Key": "238122b4-feb1-4bb6-943d-638e8e80c467",
             "Value": {
                 "id": "4a32cb3d-6fea-47fe-80f4-289bb87f9f86",
@@ -210,7 +218,7 @@
             "Key": "6869bf71-0094-47da-9e50-5ac57413124c",
             "Value": {
                 "id": "53ae3217-e1bf-4305-baf0-bccd8447513f",
-                "resourcePath": "sprites\\player_spr\\player_spr.yy",
+                "resourcePath": "sprites\\player_mage_spr\\player_mage_spr.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -242,7 +250,15 @@
             "Key": "7f08cee6-2707-4345-9be0-901cf0027dde",
             "Value": {
                 "id": "0107ef29-ad9a-4279-adba-0df22167151d",
-                "resourcePath": "objects\\player_obj\\player_obj.yy",
+                "resourcePath": "objects\\player_mage_obj\\player_mage_obj.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "80eca71a-a6a4-4150-81ff-1998dcbef3e3",
+            "Value": {
+                "id": "abc7c979-5470-434f-978c-bba70a4ac27a",
+                "resourcePath": "objects\\player_base_obj\\player_base_obj.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -308,6 +324,14 @@
                 "id": "5d224dc2-2049-49fa-a774-c72660237df6",
                 "resourcePath": "options\\linux\\options_linux.yy",
                 "resourceType": "GMLinuxOptions"
+            }
+        },
+        {
+            "Key": "b95b6690-455d-4a16-adbc-eb3c4352c804",
+            "Value": {
+                "id": "55fd03fd-d0d6-4c7e-aed7-8e332a953791",
+                "resourcePath": "sprites\\sandy_tiles_spr\\sandy_tiles_spr.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -389,6 +413,14 @@
                 "resourcePath": "scripts\\get_len\\get_len.yy",
                 "resourceType": "GMScript"
             }
+        },
+        {
+            "Key": "fb01de0a-9b04-43e5-8077-4a486b004db1",
+            "Value": {
+                "id": "660ed74a-f912-43c0-83b6-640f6b867da2",
+                "resourcePath": "scripts\\handle_block_collision\\handle_block_collision.yy",
+                "resourceType": "GMScript"
+            }
         }
     ],
     "script_order": [
@@ -404,7 +436,8 @@
         "a46a1e9e-018c-4198-b93e-da8fc284f8a5",
         "458e176f-2379-46cd-b03f-5290144c1b78",
         "4e58ea7d-e6ff-4c31-b423-bf6f6b9dabf9",
-        "238122b4-feb1-4bb6-943d-638e8e80c467"
+        "238122b4-feb1-4bb6-943d-638e8e80c467",
+        "fb01de0a-9b04-43e5-8077-4a486b004db1"
     ],
     "tutorial": ""
 }

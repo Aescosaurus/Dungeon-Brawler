@@ -12,5 +12,7 @@ if( len > dist + padding ) move = 1.0
 else if( len < dist - padding ) move = -1.0
 
 var dt = get_delta_time()
-x += ( x_diff / len ) * move * spd * dt
-y += ( y_diff / len ) * move * spd * dt
+var test_x_move = ( x_diff / len ) * move * spd * dt
+var test_y_move = ( y_diff / len ) * move * spd * dt
+
+handle_block_collision( test_x_move,test_y_move )

@@ -12,8 +12,11 @@ if( keyboard_check( ord( "D" ) ) ) ++x_vel
 var len = get_len( x_vel,y_vel )
 if( len > 0.0 )
 {
-	x += ( x_vel / len ) * move_speed * dt
-	y += ( y_vel / len ) * move_speed * dt
+	// x += ( x_vel / len ) * move_speed * dt
+	// y += ( y_vel / len ) * move_speed * dt
+	var test_x_move = ( x_vel / len ) * move_speed * dt
+	var test_y_move = ( y_vel / len ) * move_speed * dt
+	handle_block_collision( test_x_move,test_y_move )
 	
 	if( x_vel > 0.0 ) image_xscale = 1.0
 	else if( x_vel < 0.0 ) image_xscale = -1.0
