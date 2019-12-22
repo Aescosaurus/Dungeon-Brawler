@@ -55,6 +55,14 @@
             }
         },
         {
+            "Key": "0d5d6e16-49da-4f1f-bf7b-b044b2171e6c",
+            "Value": {
+                "id": "d31430bb-a6a6-4146-90da-607ae16b3dbd",
+                "resourcePath": "sprites\\sword_slash_spr\\sword_slash_spr.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "15c05514-8821-44b8-8253-10021ca62086",
             "Value": {
                 "id": "f85aaa7f-2e70-4674-8c4d-d8eacd1cbd28",
@@ -212,6 +220,14 @@
                 "id": "be106dd1-29ae-473f-bef0-ff9176de739b",
                 "resourcePath": "sprites\\enemy_slime_spr\\enemy_slime_spr.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "5d85ad05-2f05-40f0-be5a-e950984795d4",
+            "Value": {
+                "id": "161478e0-6cfd-4d3c-905b-b85011d28fc0",
+                "resourcePath": "objects\\sword_slash_obj\\sword_slash_obj.yy",
+                "resourceType": "GMObject"
             }
         },
         {
