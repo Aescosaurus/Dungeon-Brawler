@@ -231,6 +231,14 @@
             }
         },
         {
+            "Key": "65f74597-da1f-47ca-ad35-aeb044dac3a4",
+            "Value": {
+                "id": "71adda97-8db4-48a9-b6c6-9fd5fd67c3af",
+                "resourcePath": "sprites\\enemy_slime_bullet_spr\\enemy_slime_bullet_spr.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "6869bf71-0094-47da-9e50-5ac57413124c",
             "Value": {
                 "id": "53ae3217-e1bf-4305-baf0-bccd8447513f",
@@ -244,6 +252,14 @@
                 "id": "2b762737-db14-4eb2-94f8-9881a9c1fcfd",
                 "resourcePath": "scripts\\get_delta_time\\get_delta_time.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "785d98a2-d9af-4bee-b859-5e9202eb95c9",
+            "Value": {
+                "id": "6b318f0f-5e90-47a9-8b39-fe4fa8ec94f4",
+                "resourcePath": "objects\\enemy_bullet_base_obj\\enemy_bullet_base_obj.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -412,6 +428,14 @@
                 "id": "10726a87-9c22-449f-8841-74e2bc2546d9",
                 "resourcePath": "scripts\\get_len_sq\\get_len_sq.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "d8a42c53-e2ec-42e5-9b07-08d4c40b6300",
+            "Value": {
+                "id": "9b58ea38-0f45-429a-8e4e-544d009248a1",
+                "resourcePath": "objects\\enemy_slime_bullet_obj\\enemy_slime_bullet_obj.yy",
+                "resourceType": "GMObject"
             }
         },
         {
