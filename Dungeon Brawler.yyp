@@ -119,14 +119,6 @@
             }
         },
         {
-            "Key": "3a75b465-0ec8-4673-8dbe-9573063b6487",
-            "Value": {
-                "id": "ad720cbc-b38a-4d87-bbad-f2a36f7e3921",
-                "resourcePath": "scripts\\timer_reset\\timer_reset.yy",
-                "resourceType": "GMScript"
-            }
-        },
-        {
             "Key": "3b37e5fe-c92d-484a-b42b-a5a1d1d60398",
             "Value": {
                 "id": "b8d1dd80-e12f-42bf-af7a-c1725d9e6365",
@@ -204,6 +196,14 @@
                 "id": "57deb995-2724-439a-bbeb-b3b13e5d8a04",
                 "resourcePath": "rooms\\main_room\\main_room.yy",
                 "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "571176de-be2a-4aed-a25b-026f9688130b",
+            "Value": {
+                "id": "ffc4461a-caab-4804-b0a4-f6a1f338105e",
+                "resourcePath": "sprites\\player_slugknight_spr\\player_slugknight_spr.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -295,6 +295,14 @@
             }
         },
         {
+            "Key": "98697578-2236-41a4-85d2-b2aa0fb296f3",
+            "Value": {
+                "id": "91a35930-74b5-4928-b460-18fcb483adca",
+                "resourcePath": "objects\\player_slugknight_obj\\player_slugknight_obj.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "a46a1e9e-018c-4198-b93e-da8fc284f8a5",
             "Value": {
                 "id": "cfc066b8-94c4-4612-944e-b268ce18ebcb",
@@ -332,6 +340,14 @@
                 "id": "5d224dc2-2049-49fa-a774-c72660237df6",
                 "resourcePath": "options\\linux\\options_linux.yy",
                 "resourceType": "GMLinuxOptions"
+            }
+        },
+        {
+            "Key": "aacd00fc-80ff-47a5-92fb-7e95efbb952d",
+            "Value": {
+                "id": "28238e6c-8a22-4b32-940c-e1d1849dc554",
+                "resourcePath": "scripts\\timer_is_done\\timer_is_done.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -407,14 +423,6 @@
             }
         },
         {
-            "Key": "f9d86c39-3828-487a-99fe-36d21ec31417",
-            "Value": {
-                "id": "f082afed-08e8-4095-86b3-d94aabb0dfb8",
-                "resourcePath": "scripts\\timer_update\\timer_update.yy",
-                "resourceType": "GMScript"
-            }
-        },
-        {
             "Key": "faf3a3b6-ac00-4655-a489-4664f43de4bd",
             "Value": {
                 "id": "de948f16-d40f-49f4-a0d0-d9b3f2e321bd",
@@ -437,8 +445,7 @@
         "751fab79-45fc-4c7e-859f-eb2d1bbcd86d",
         "a49f6b32-15d8-45e6-a7da-9ab61c1caadc",
         "42cd1ff3-43ef-4685-ab12-f29d383ac362",
-        "f9d86c39-3828-487a-99fe-36d21ec31417",
-        "3a75b465-0ec8-4673-8dbe-9573063b6487",
+        "aacd00fc-80ff-47a5-92fb-7e95efbb952d",
         "82013704-bd88-495a-9ca2-0775c88127b4",
         "8dbcf343-27b5-47f7-a481-307ca65bd073",
         "a46a1e9e-018c-4198-b93e-da8fc284f8a5",

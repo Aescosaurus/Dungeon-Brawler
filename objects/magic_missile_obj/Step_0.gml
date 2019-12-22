@@ -3,9 +3,10 @@ var dt = get_delta_time()
 x += x_vel * fly_speed * dt
 y += y_vel * fly_speed * dt
 
-if( timer_update( target_timer ) )
+target_timer[0] += dt
+if( timer_is_done( target_timer ) )
 {
-	timer_reset( target_timer )
+	target_timer[0] = 0.0
 	
 	var dist = sqr( min_target_dist )
 	var closest = noone
@@ -31,6 +32,7 @@ if( timer_update( target_timer ) )
 	}
 }
 
+// TODO: Destroy when hitting tiles.
 if( x + size < 0 || x - size > room_width ||
 	y + size < 0 || y - size > room_height )
 {

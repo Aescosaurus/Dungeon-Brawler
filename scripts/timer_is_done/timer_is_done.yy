@@ -1,8 +1,8 @@
 {
-    "id": "f9d86c39-3828-487a-99fe-36d21ec31417",
+    "id": "aacd00fc-80ff-47a5-92fb-7e95efbb952d",
     "modelName": "GMScript",
     "mvc": "1.0",
-    "name": "timer_update",
+    "name": "timer_is_done",
     "IsCompatibility": false,
     "IsDnD": false
 }
