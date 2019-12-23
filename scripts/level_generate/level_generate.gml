@@ -9,14 +9,39 @@ level_draw_rect( 0,0,width,height,2,tilemap,scr_rect )
 
 level_draw_circle( random_range( 0,width ),random_range( 0,height ),
 	random_range( 4,10 ),1,tilemap,scr_rect )
-for( var i = 0; i < 7; ++i )
+for( var i = 0; i < 8; ++i )
 {
+	// do
+	// {
+	// 	rand_x = random_range( 0,width )
+	// 	rand_y = random_range( 0,height )
+	// }
+	// until( tilemap_get_at_pixel( tilemap,rand_x * tile_width,rand_y * tile_height ) < 2 );
+	var tiles = -1
+	var tries = 0
 	do
 	{
-		rand_x = random_range( 0,width )
-		rand_y = random_range( 0,height )
+		rand_x = random_range( 1,width - 1 )
+		rand_y = random_range( 1,height - 1 )
+		
+		tiles =  0
+		for( var vy = -1; vy < 1; ++vy )
+		{
+			for( var vx = -1; vx < 1; ++vx )
+			{
+				if( tilemap_get_at_pixel( tilemap,
+					( rand_x + vx ) * tile_width,( rand_y + vy ) * tile_height ) < 2 )
+				{
+					++tiles
+				}
+			}
+		}
 	}
-	until( tilemap_get_at_pixel( tilemap,rand_x * tile_width,rand_y * tile_height ) < 2 );
+	until( tiles < 2 || ++tries < 9999999 )
+	
+	// level_draw_rect( rand_x - 1,rand_y - 1,3,3,
+	// 	1,tilemap,scr_rect )
+	level_draw_circle( rand_x,rand_y,3,1,tilemap,scr_rect )
 	
 	if( random_range( 0,100 ) < 60 )
 	{
