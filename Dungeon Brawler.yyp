@@ -39,6 +39,14 @@
             }
         },
         {
+            "Key": "09ba416a-1d67-456b-9f54-e5e7500add85",
+            "Value": {
+                "id": "1318a4c6-18eb-4101-90f1-f1cf5c7b23aa",
+                "resourcePath": "rooms\\random_room\\random_room.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "0b296509-654a-418e-bc75-8cd3e6c0465f",
             "Value": {
                 "id": "0e1365de-9720-4e9b-a741-01badedd9cf2",
@@ -195,6 +203,14 @@
             "Value": {
                 "id": "0f4f6a47-df8a-47f4-923e-b3d949284536",
                 "resourcePath": "scripts\\ai_maintain_distance\\ai_maintain_distance.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "4ac779d7-1cb8-4c14-a2a3-e6fea4a0f540",
+            "Value": {
+                "id": "06cf0675-e241-4e88-90f4-ae9177ee8357",
+                "resourcePath": "scripts\\level_generate\\level_generate.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -415,6 +431,14 @@
             }
         },
         {
+            "Key": "bbfd2d7c-0c90-4822-a807-cd7da1c0a38d",
+            "Value": {
+                "id": "9e3bbd16-f90b-4650-bb9d-ca95c7c6a422",
+                "resourcePath": "objects\\game_manager_obj\\game_manager_obj.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "ca67a5c6-da64-4468-9743-98d45fb4125d",
             "Value": {
                 "id": "85d29ebd-3624-41e8-89dd-7f39830d4dd8",
@@ -451,6 +475,14 @@
             "Value": {
                 "id": "10726a87-9c22-449f-8841-74e2bc2546d9",
                 "resourcePath": "scripts\\get_len_sq\\get_len_sq.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "d2e349fd-7b95-4421-b2ae-6a718365c0f0",
+            "Value": {
+                "id": "a97fa3d5-0262-401e-af76-e95e3742b629",
+                "resourcePath": "scripts\\level_draw_rect\\level_draw_rect.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -520,7 +552,9 @@
         "4e58ea7d-e6ff-4c31-b423-bf6f6b9dabf9",
         "238122b4-feb1-4bb6-943d-638e8e80c467",
         "fb01de0a-9b04-43e5-8077-4a486b004db1",
-        "966452c2-675a-4f8b-82fd-b2d400145303"
+        "966452c2-675a-4f8b-82fd-b2d400145303",
+        "4ac779d7-1cb8-4c14-a2a3-e6fea4a0f540",
+        "d2e349fd-7b95-4421-b2ae-6a718365c0f0"
     ],
     "tutorial": ""
 }
