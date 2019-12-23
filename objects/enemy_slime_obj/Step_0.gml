@@ -20,5 +20,5 @@ if( timer_is_done( shoot_timer ) )
 	var len = get_len( x_diff,y_diff )
 	bullet.x_vel = x_diff / len
 	bullet.y_vel = y_diff / len
-	bullet.image_angle = random_range( 0.0,360.0 )
+	// bullet.image_angle = random_range( 0.0,360.0 )
 }
