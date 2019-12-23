@@ -4,20 +4,6 @@ var x_vel = vels[0]
 var y_vel = vels[1]
 var len = get_len( x_vel,y_vel )
 
-if( len > 0.0 )
-{
-	// anim_timer = timer_update( anim_timer )
-	anim_timer[0] += dt
-	if( timer_is_done( anim_timer ) ) anim_timer[0] = 0.0
-	play_walk_anim( anim_timer,squish_factor )
-}
-else
-{
-	anim_timer[0] = 0.0
-	image_xscale /= abs( image_xscale )
-	image_yscale /= abs( image_yscale )
-}
-
 // Handle shooting magic missiles.
 attack_timer[0] += dt
 if( timer_is_done( attack_timer ) && len > 0.0 )
