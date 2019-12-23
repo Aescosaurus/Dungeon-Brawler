@@ -32,9 +32,7 @@ if( timer_is_done( target_timer ) )
 	}
 }
 
-// TODO: Destroy when hitting tiles.
-if( x + size < 0 || x - size > room_width ||
-	y + size < 0 || y - size > room_height )
+if( tilemap_get_at_pixel( tilemap,x,y ) > 1 )
 {
 	instance_destroy()
 }

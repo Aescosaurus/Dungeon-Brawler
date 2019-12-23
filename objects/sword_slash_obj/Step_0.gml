@@ -3,9 +3,9 @@ var dt = get_delta_time()
 x += x_vel * fly_speed * dt
 y += y_vel * fly_speed * dt
 
-// TODO: Destroy when hitting tiles.
-if( x + size < 0 || x - size > room_width ||
-	y + size < 0 || y - size > room_height )
+lifetimer[0] += dt
+if( tilemap_get_at_pixel( tilemap,x,y ) > 1 ||
+	timer_is_done( lifetimer ) )
 {
 	instance_destroy()
 }

@@ -1,2 +1,2 @@
-move_speed = 26.3
+move_speed = 35.3
 attack_timer = timer_create( 0.6 )
