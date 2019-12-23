@@ -9,6 +9,7 @@ attack_timer[0] += dt
 if( timer_is_done( attack_timer ) && len > 0.0 )
 {
 	attack_timer[0] = 0.0
+	attacking = true
 	
 	for( var i = 0; i < 2; ++i )
 	{
@@ -16,5 +17,18 @@ if( timer_is_done( attack_timer ) && len > 0.0 )
 		bullet.x_vel = x_vel / len
 		bullet.y_vel = y_vel / len
 		bullet.image_angle = radtodeg( -arctan2( y_vel,x_vel ) - pi / 2.5 + i * ( pi / 8.0 ) )
+	}
+}
+
+if( attacking )
+{
+	anim_timer[0] += dt
+	anim_attack( anim_timer,0.35,1.4 )
+	if( timer_is_done( anim_timer ) )
+	{
+		anim_timer[0] = 0.0
+		attacking = false
+		image_xscale /= abs( image_xscale )
+		image_yscale /= abs( image_yscale )
 	}
 }

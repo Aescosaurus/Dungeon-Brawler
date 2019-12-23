@@ -71,6 +71,14 @@
             }
         },
         {
+            "Key": "1881dba6-aace-455b-b1ff-8d5b41b2c3b7",
+            "Value": {
+                "id": "6e596b9d-588f-4bc6-ac69-a993b173f193",
+                "resourcePath": "scripts\\timer_get_percent\\timer_get_percent.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "1a327a72-be12-4137-a9c9-bedf548033c0",
             "Value": {
                 "id": "4b45b59a-fd1b-48e0-80d3-26ae337de369",
@@ -311,6 +319,14 @@
             }
         },
         {
+            "Key": "85c95466-6c4b-4763-9ecf-b8ce8d401802",
+            "Value": {
+                "id": "09e3924b-9c0d-4473-92ab-ea46f22ac85d",
+                "resourcePath": "scripts\\anim_attack\\anim_attack.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "869f8bc9-a77b-4313-af49-de6287aa73de",
             "Value": {
                 "id": "c2b94ed0-7c05-41ff-bd12-29e28b908890",
@@ -322,7 +338,7 @@
             "Key": "8dbcf343-27b5-47f7-a481-307ca65bd073",
             "Value": {
                 "id": "ce9b6893-ef32-4e0b-b491-199e4e40157c",
-                "resourcePath": "scripts\\play_walk_anim\\play_walk_anim.yy",
+                "resourcePath": "scripts\\anim_walk\\anim_walk.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -494,9 +510,11 @@
         "a49f6b32-15d8-45e6-a7da-9ab61c1caadc",
         "42cd1ff3-43ef-4685-ab12-f29d383ac362",
         "aacd00fc-80ff-47a5-92fb-7e95efbb952d",
+        "1881dba6-aace-455b-b1ff-8d5b41b2c3b7",
         "82013704-bd88-495a-9ca2-0775c88127b4",
         "8dbcf343-27b5-47f7-a481-307ca65bd073",
         "6406f3ec-3a13-4214-9ee1-449482ab2ae1",
+        "85c95466-6c4b-4763-9ecf-b8ce8d401802",
         "a46a1e9e-018c-4198-b93e-da8fc284f8a5",
         "458e176f-2379-46cd-b03f-5290144c1b78",
         "4e58ea7d-e6ff-4c31-b423-bf6f6b9dabf9",
