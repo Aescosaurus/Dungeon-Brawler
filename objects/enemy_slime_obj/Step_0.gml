@@ -6,7 +6,9 @@ if( timer_is_done( anim_timer ) ) anim_timer[0] = 0.0
 anim_walk( anim_timer,0.95 )
 
 // Ai movement stuff.
-ai_maintain_distance( get_player(),hover_dist,move_speed )
+var player = get_player()
+ai_maintain_distance( player,hover_dist,move_speed )
+image_xscale = ( player.x < x ) ? -abs( image_xscale ) : abs( image_xscale )
 
 // Attack player.
 shoot_timer[0] += dt
@@ -14,7 +16,6 @@ if( timer_is_done( shoot_timer ) )
 {
 	shoot_timer[0] = 0.0
 	var bullet = instance_create_layer( x,y,"instances",enemy_slime_bullet_obj )
-	var player = get_player()
 	var x_diff = player.x - x
 	var y_diff = player.y - y
 	var len = get_len( x_diff,y_diff )

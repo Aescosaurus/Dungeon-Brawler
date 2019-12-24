@@ -6,9 +6,9 @@ if( timer_is_done( anim_timer ) ) anim_timer[0] = 0.0
 anim_walk( anim_timer,0.95 )
 
 // Movement stuff.
+var player = get_player()
 if( tilemap_get_at_pixel( tilemap,x + x_vel,y + y_vel ) > 1 || x_vel == 0.0 )
 {
-	var player = get_player()
 	var x_diff = player.x - x
 	var y_diff = player.y - y
 	var len = get_len( x_diff,y_diff )
@@ -16,6 +16,7 @@ if( tilemap_get_at_pixel( tilemap,x + x_vel,y + y_vel ) > 1 || x_vel == 0.0 )
 	y_vel = ( y_diff / len ) * move_speed
 }
 handle_block_collision( x_vel * dt,y_vel * dt )
+image_xscale = ( player.x < x ) ? -abs( image_xscale ) : abs( image_xscale )
 
 // Attack player.
 shoot_timer[0] += dt
@@ -23,7 +24,6 @@ if( timer_is_done( shoot_timer ) )
 {
 	shoot_timer[0] = 0.0
 	
-	var player = get_player()
 	var x_diff = player.x - x
 	var y_diff = player.y - y
 	var angle = arctan2( y_diff,x_diff )
