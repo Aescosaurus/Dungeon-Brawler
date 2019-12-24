@@ -58,6 +58,6 @@ level_draw_rect( 0,height - 1,width,1,2,tilemap,scr_rect )
 level_draw_rect( 0,0,1,height,2,tilemap,scr_rect )
 
 // Set alarms that spawn players and enemies.
-alarm_set( 0,60 * 0.7 )
+alarm_set( 0,60 * 0.1 )
 
 alarm_set( 1,60 * 2.0 )

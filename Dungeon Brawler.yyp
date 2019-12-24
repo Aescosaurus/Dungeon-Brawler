@@ -471,6 +471,14 @@
             }
         },
         {
+            "Key": "c3c6a8d4-9751-435a-bee5-051f582c8e8f",
+            "Value": {
+                "id": "fba73c99-34c5-4cb4-b85f-ac028fd4f62f",
+                "resourcePath": "objects\\enemy_snake_obj\\enemy_snake_obj.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "c4694a1b-f417-4b94-adfb-23f3987bc9ad",
             "Value": {
                 "id": "4fcd0f86-ace8-41bf-89dd-f51aeb91b8a3",
