@@ -31,6 +31,14 @@
     },
     "resources": [
         {
+            "Key": "02d7d380-f94a-492f-920e-3bed5d090fe1",
+            "Value": {
+                "id": "ed4ed5ee-acf3-4a96-866f-bfd97b768c8f",
+                "resourcePath": "sprites\\enemy_snizzard_spr\\enemy_snizzard_spr.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "055efa0f-b099-4e2f-a899-ff97d0ecb929",
             "Value": {
                 "id": "11fc04a6-07c6-403c-aa38-117df0c50821",
@@ -420,6 +428,14 @@
                 "id": "f5d39804-57b3-43a1-956a-c75bc3d87bda",
                 "resourcePath": "sprites\\enemy_slime_particle_spr\\enemy_slime_particle_spr.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "a5875f53-bba4-4239-8268-473e6671fc2e",
+            "Value": {
+                "id": "dee534ca-4d92-41c8-bdf6-09b8ed3ff30d",
+                "resourcePath": "objects\\enemy_snizzard_obj\\enemy_snizzard_obj.yy",
+                "resourceType": "GMObject"
             }
         },
         {
