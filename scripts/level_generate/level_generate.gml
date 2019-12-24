@@ -1,3 +1,4 @@
+// Set up initial parameters.
 var tilemap = layer_tilemap_get_id( "tilemap" )
 var width = tilemap_get_width( tilemap )
 var height = tilemap_get_height( tilemap )
@@ -7,8 +8,10 @@ var tile_height = tilemap_get_tile_height( tilemap )
 
 random_set_seed( current_time )
 
+// Start off with completely walled level.
 level_draw_rect( 0,0,width,height,2,tilemap,scr_rect )
 
+// Create empty areas inside the level, make sure they all touch.
 level_draw_circle( random_range( 0,width ),random_range( 0,height ),
 	random_range( 4,10 ),1,tilemap,scr_rect )
 for( var i = 0; i < 7; ++i )
@@ -17,8 +20,8 @@ for( var i = 0; i < 7; ++i )
 	var tries = 0
 	do
 	{
-		rand_x = random_range( 1,width - 1 )
-		rand_y = random_range( 1,height - 1 )
+		var rand_x = random_range( 1,width - 1 )
+		var rand_y = random_range( 1,height - 1 )
 		
 		adj_tiles =  0
 		for( var vy = -1; vy < 1; ++vy )
@@ -36,10 +39,6 @@ for( var i = 0; i < 7; ++i )
 	until( tilemap_get_at_pixel( tilemap,rand_x * tile_width,rand_y * tile_height ) < 2 &&
 		( ++tries > 9999 || adj_tiles < 3 ) )
 	
-	// level_draw_rect( rand_x - 2,rand_y - 2,3,3,
-	// 	3,tilemap,scr_rect )
-	// level_draw_circle( rand_x,rand_y,3,3,tilemap,scr_rect )
-	
 	if( random_range( 0,100 ) < 60 )
 	{
 		level_draw_rect( rand_x,rand_y,random_range( 4,10 ),random_range( 4,10 ),
@@ -52,23 +51,13 @@ for( var i = 0; i < 7; ++i )
 	}
 }
 
+// Make sure players cannot escape the level.
 level_draw_rect( 0,0,width,1,2,tilemap,scr_rect )
 level_draw_rect( width - 1,0,1,height,2,tilemap,scr_rect )
 level_draw_rect( 0,height - 1,width,1,2,tilemap,scr_rect )
 level_draw_rect( 0,0,1,height,2,tilemap,scr_rect )
 
-for( var i = 0; i < instance_number( player_base_obj ); ++i )
-{
-	var player = instance_find( player_base_obj,i )
-	var rand_x = random_range( 0,width )
-	var rand_y = random_range( 0,height )
-	do
-	{
-		rand_x = random_range( 0,width )
-		rand_y = random_range( 0,height )
-	}
-	until( tilemap_get_at_pixel( tilemap,rand_x * tile_width,rand_y * tile_height ) < 2 )
-	
-	player.x = rand_x * tile_width
-	player.y = rand_y * tile_height
-}
+// Set alarms that spawn players and enemies.
+alarm_set( 0,60 * 0.7 )
+
+alarm_set( 1,60 * 2.0 )
