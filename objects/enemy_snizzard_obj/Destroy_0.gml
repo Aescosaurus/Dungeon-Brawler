@@ -1,1 +1,1 @@
-spawn_particles( x,y,enemy_slime_particle_spr,14 )
+spawn_particles( x,y,enemy_snake_particle_spr,14 )

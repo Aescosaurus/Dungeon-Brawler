@@ -30,7 +30,7 @@ if( timer_is_done( shoot_timer ) )
 	
 	for( var i = -1; i < 2; ++i )
 	{
-		var bullet = instance_create_layer( x,y,"instances",enemy_slime_bullet_obj )
+		var bullet = instance_create_layer( x,y,"instances",enemy_snake_bullet_obj )
 		bullet.x_vel = cos( angle + shot_deviation * i )
 		bullet.y_vel = sin( angle + shot_deviation * i )
 	}

@@ -159,6 +159,14 @@
             }
         },
         {
+            "Key": "24df91c1-0f77-49df-92a0-846fee871e59",
+            "Value": {
+                "id": "e543c489-0c53-499d-b145-52ae51b10690",
+                "resourcePath": "sprites\\enemy_snake_bullet_spr\\enemy_snake_bullet_spr.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "3736f310-c8ed-4f96-80d3-43b363fc097e",
             "Value": {
                 "id": "e2e4666b-a31a-4e3f-9960-9f0cdc36ca52",
@@ -260,6 +268,14 @@
                 "id": "d2f715d4-7f54-40a2-8706-d5e17282ddae",
                 "resourcePath": "scripts\\ai_clamp_to_screen\\ai_clamp_to_screen.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "4f128b08-3800-4493-899a-dc4d78712ed9",
+            "Value": {
+                "id": "3a1ad14f-341b-4ba6-954d-9fdf95000d38",
+                "resourcePath": "objects\\enemy_snake_bullet_obj\\enemy_snake_bullet_obj.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -396,6 +412,14 @@
                 "id": "c2b94ed0-7c05-41ff-bd12-29e28b908890",
                 "resourcePath": "objects\\player_bullet_base_obj\\player_bullet_base_obj.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "8837c157-5ab6-4479-abeb-adc7162d0914",
+            "Value": {
+                "id": "f371dc1e-9f0f-4028-be8d-0b31e434fd74",
+                "resourcePath": "sprites\\enemy_snake_particle_spr\\enemy_snake_particle_spr.yy",
+                "resourceType": "GMSprite"
             }
         },
         {

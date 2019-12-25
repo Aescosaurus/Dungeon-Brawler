@@ -22,12 +22,12 @@ if( timer_is_done( shoot_timer ) )
 	var angle = arctan2( y_diff,x_diff )
 	
 	angle -= shot_deviation
-	var bullet = instance_create_layer( x,y,"instances",enemy_slime_bullet_obj )
+	var bullet = instance_create_layer( x,y,"instances",enemy_snake_bullet_obj )
 	bullet.x_vel = cos( angle )
 	bullet.y_vel = sin( angle )
 	
 	angle += shot_deviation * 2
-	bullet = instance_create_layer( x,y,"instances",enemy_slime_bullet_obj )
+	bullet = instance_create_layer( x,y,"instances",enemy_snake_bullet_obj )
 	bullet.x_vel = cos( angle )
 	bullet.y_vel = sin( angle )
 	// var x_diff = player.x - x
