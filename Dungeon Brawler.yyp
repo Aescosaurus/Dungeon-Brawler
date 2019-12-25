@@ -87,6 +87,14 @@
             }
         },
         {
+            "Key": "1344d235-f54f-498d-b6d7-741b991b1f23",
+            "Value": {
+                "id": "cb026bc1-576a-47db-9b95-3cacd32c738d",
+                "resourcePath": "sprites\\enemy_ghost_spr\\enemy_ghost_spr.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "14717007-cc6b-4fa0-8de3-7efa302ccc1c",
             "Value": {
                 "id": "8fbebf77-2da4-433a-b358-dde82100a4c6",
@@ -124,6 +132,14 @@
                 "id": "503414cd-0235-4afe-a269-bbd8a2cbfd56",
                 "resourcePath": "tilesets\\sandy_tileset\\sandy_tileset.yy",
                 "resourceType": "GMTileSet"
+            }
+        },
+        {
+            "Key": "21a30545-7cf7-4488-985e-e5f010245da2",
+            "Value": {
+                "id": "20b88338-8fe7-488f-9f96-3bb2e714e3ee",
+                "resourcePath": "objects\\enemy_ghost_obj\\enemy_ghost_obj.yy",
+                "resourceType": "GMObject"
             }
         },
         {

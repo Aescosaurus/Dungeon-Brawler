@@ -16,3 +16,5 @@ var test_x_move = ( x_diff / len ) * move * spd * dt
 var test_y_move = ( y_diff / len ) * move * spd * dt
 
 handle_block_collision( test_x_move,test_y_move )
+
+return( test_x_move != 0.0 || test_y_move != 0.0 )

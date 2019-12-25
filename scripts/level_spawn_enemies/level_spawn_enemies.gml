@@ -24,9 +24,13 @@ for( var i = 0; i < random_range( low,high ); ++i )
 	{
 		enemy = enemy_snake_obj
 	}
-	else
+	else if( num < 90 || game_manager_obj.cur_floor < 8 )
 	{
 		enemy = enemy_snizzard_obj
+	}
+	else
+	{
+		enemy = enemy_ghost_obj
 	}
 	
 	enemy = instance_create_layer( x_pos,y_pos,"instances",enemy )
