@@ -4,6 +4,9 @@ var height = tilemap_get_height( tilemap )
 var tile_width = tilemap_get_tile_width( tilemap )
 var tile_height = tilemap_get_tile_height( tilemap )
 
+if( instance_number( player_mage_obj ) < 1 ) instance_create_layer( 0,0,"instances",player_mage_obj )
+if( instance_number( player_slugknight_obj ) < 1 ) instance_create_layer( 0,0,"instances",player_slugknight_obj )
+
 for( var i = 0; i < instance_number( player_base_obj ); ++i )
 {
 	var player = instance_find( player_base_obj,i )
