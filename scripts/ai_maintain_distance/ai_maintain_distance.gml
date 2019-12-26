@@ -9,7 +9,7 @@ var len = get_len( x_diff,y_diff )
 var padding = spd
 var move = 0.0
 if( len > dist + padding ) move = 1.0
-else if( len < dist - padding ) move = -1.0
+else if( len < max( 0.1,dist - padding ) ) move = -1.0
 
 var dt = get_delta_time()
 var test_x_move = ( x_diff / len ) * move * spd * dt

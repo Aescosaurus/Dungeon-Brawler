@@ -503,6 +503,14 @@
             }
         },
         {
+            "Key": "b91c9d86-32ef-42bd-a4cd-6388be6c2271",
+            "Value": {
+                "id": "72e9057e-dbe9-4fa1-a266-2dabf402f4d0",
+                "resourcePath": "scripts\\get_rand_player\\get_rand_player.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "b95b6690-455d-4a16-adbc-eb3c4352c804",
             "Value": {
                 "id": "55fd03fd-d0d6-4c7e-aed7-8e332a953791",
@@ -656,6 +664,7 @@
         "aacd00fc-80ff-47a5-92fb-7e95efbb952d",
         "1881dba6-aace-455b-b1ff-8d5b41b2c3b7",
         "82013704-bd88-495a-9ca2-0775c88127b4",
+        "b91c9d86-32ef-42bd-a4cd-6388be6c2271",
         "8dbcf343-27b5-47f7-a481-307ca65bd073",
         "6406f3ec-3a13-4214-9ee1-449482ab2ae1",
         "85c95466-6c4b-4763-9ecf-b8ce8d401802",
