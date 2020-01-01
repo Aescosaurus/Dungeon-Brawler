@@ -47,6 +47,14 @@
             }
         },
         {
+            "Key": "0282d5f2-456e-4399-a2ac-d12034f10776",
+            "Value": {
+                "id": "9cf42d1f-1c0b-449a-926a-2fb19878e955",
+                "resourcePath": "scripts\\particle_spawn_generic\\particle_spawn_generic.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "02d7d380-f94a-492f-920e-3bed5d090fe1",
             "Value": {
                 "id": "ed4ed5ee-acf3-4a96-866f-bfd97b768c8f",
@@ -172,14 +180,6 @@
                 "id": "20b88338-8fe7-488f-9f96-3bb2e714e3ee",
                 "resourcePath": "objects\\enemy_ghost_obj\\enemy_ghost_obj.yy",
                 "resourceType": "GMObject"
-            }
-        },
-        {
-            "Key": "238122b4-feb1-4bb6-943d-638e8e80c467",
-            "Value": {
-                "id": "4a32cb3d-6fea-47fe-80f4-289bb87f9f86",
-                "resourcePath": "scripts\\spawn_particles\\spawn_particles.yy",
-                "resourceType": "GMScript"
             }
         },
         {
@@ -338,7 +338,7 @@
             "Key": "53f1d3dc-48c3-4b3e-9b90-6e0d18601e5f",
             "Value": {
                 "id": "57deb995-2724-439a-bbeb-b3b13e5d8a04",
-                "resourcePath": "rooms\\main_room\\main_room.yy",
+                "resourcePath": "rooms\\test_room\\test_room.yy",
                 "resourceType": "GMRoom"
             }
         },
@@ -348,14 +348,6 @@
                 "id": "ffc4461a-caab-4804-b0a4-f6a1f338105e",
                 "resourcePath": "sprites\\player_slugknight_spr\\player_slugknight_spr.yy",
                 "resourceType": "GMSprite"
-            }
-        },
-        {
-            "Key": "57621491-888a-48f0-bd45-228a6b783d33",
-            "Value": {
-                "id": "0fcb5297-7b1d-468d-96d6-1821ad4ba3ce",
-                "resourcePath": "views\\57621491-888a-48f0-bd45-228a6b783d33.yy",
-                "resourceType": "GMFolder"
             }
         },
         {
@@ -631,6 +623,14 @@
             }
         },
         {
+            "Key": "af9f3d50-a0d1-4cdc-870e-144e5fe1cee9",
+            "Value": {
+                "id": "c181ae14-f9ae-4fa2-9fcd-5fe1d9b63823",
+                "resourcePath": "scripts\\print_arr\\print_arr.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "b91c9d86-32ef-42bd-a4cd-6388be6c2271",
             "Value": {
                 "id": "72e9057e-dbe9-4fa1-a266-2dabf402f4d0",
@@ -759,6 +759,14 @@
             }
         },
         {
+            "Key": "dec0bcc5-4d7f-4150-b455-d8410863a618",
+            "Value": {
+                "id": "96eaccd5-46a6-49a7-be92-cd0a1ccee013",
+                "resourcePath": "scripts\\particle_create\\particle_create.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "df50fef9-ba22-41b1-b54c-612a3bd102e7",
             "Value": {
                 "id": "df589225-cb82-4fca-ad1a-ea268eb4c041",
@@ -820,6 +828,7 @@
         "faf3a3b6-ac00-4655-a489-4664f43de4bd",
         "751fab79-45fc-4c7e-859f-eb2d1bbcd86d",
         "a49f6b32-15d8-45e6-a7da-9ab61c1caadc",
+        "af9f3d50-a0d1-4cdc-870e-144e5fe1cee9",
         "42cd1ff3-43ef-4685-ab12-f29d383ac362",
         "aacd00fc-80ff-47a5-92fb-7e95efbb952d",
         "1881dba6-aace-455b-b1ff-8d5b41b2c3b7",
@@ -840,7 +849,8 @@
         "63740785-0cd6-4546-901b-9c020b1af8bd",
         "aae20514-9dc2-4699-950e-a91c206c50fa",
         "f024f6b6-e918-4f9c-a40b-05fd26742cd6",
-        "238122b4-feb1-4bb6-943d-638e8e80c467"
+        "dec0bcc5-4d7f-4150-b455-d8410863a618",
+        "0282d5f2-456e-4399-a2ac-d12034f10776"
     ],
     "tutorial": ""
 }

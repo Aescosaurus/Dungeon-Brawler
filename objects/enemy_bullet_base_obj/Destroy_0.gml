@@ -1,1 +1,1 @@
-spawn_particles( x,y,my_particle,random_range( 4,7 ) )
+particle_spawn_generic( x,y,my_particle,random_range( 4,7 ) )
