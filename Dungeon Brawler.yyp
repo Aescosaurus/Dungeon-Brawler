@@ -199,11 +199,27 @@
             }
         },
         {
+            "Key": "2818ab39-9d9b-4439-90c7-4c7f45fab861",
+            "Value": {
+                "id": "c0863b1a-42d9-4ac4-a531-7d89e48bb7ce",
+                "resourcePath": "sprites\\firework_2_particle_spr\\firework_2_particle_spr.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "287936ac-e1fb-43d1-8090-f870a3c8772f",
             "Value": {
                 "id": "3632aae2-a141-4a95-9d63-4a987a7b4616",
                 "resourcePath": "views\\287936ac-e1fb-43d1-8090-f870a3c8772f.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "2c31c055-24fb-4b3a-bca2-3543d1585f76",
+            "Value": {
+                "id": "7db667a8-d88a-4994-8ca1-a7ba6cc1c7a8",
+                "resourcePath": "sprites\\firework_3_particle_spr\\firework_3_particle_spr.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -252,6 +268,14 @@
                 "id": "a00d0142-852f-4baf-b566-06566b9a0e6f",
                 "resourcePath": "views\\38ca57f7-17c7-45aa-82f5-7872e132e8a9.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "3aa1e8e1-b4c5-46dc-b2bb-b445e824b25f",
+            "Value": {
+                "id": "c9bd72de-d014-410f-9685-29ba42ae8d94",
+                "resourcePath": "sprites\\firework_1_particle_spr\\firework_1_particle_spr.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -412,6 +436,14 @@
                 "id": "53ae3217-e1bf-4305-baf0-bccd8447513f",
                 "resourcePath": "sprites\\player_mage_spr\\player_mage_spr.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "697b5e5a-f2c4-4b88-a334-a2d3b1ac9dab",
+            "Value": {
+                "id": "3b09cf69-b40b-4725-a415-fdf47e4d5e5c",
+                "resourcePath": "scripts\\particle_spawn_fireworks\\particle_spawn_fireworks.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -884,7 +916,8 @@
         "dec0bcc5-4d7f-4150-b455-d8410863a618",
         "0282d5f2-456e-4399-a2ac-d12034f10776",
         "376f34d1-ebd9-4016-891d-1857673cc57f",
-        "78c792ee-b60b-487e-863b-f78d8eb2a7a7"
+        "78c792ee-b60b-487e-863b-f78d8eb2a7a7",
+        "697b5e5a-f2c4-4b88-a334-a2d3b1ac9dab"
     ],
     "tutorial": ""
 }
