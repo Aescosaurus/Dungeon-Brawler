@@ -2,7 +2,7 @@
 {
     "name": "game_over_room",
     "id": "bfa62b0b-bebd-44e8-b5b3-50fd9d7d7551",
-    "creationCodeFile": "",
+    "creationCodeFile": "RoomCreationCode.gml",
     "inheritCode": false,
     "inheritCreationOrder": false,
     "inheritLayers": false,

@@ -8,7 +8,8 @@
         "d2e349fd-7b95-4421-b2ae-6a718365c0f0",
         "bc9dee6e-8451-4103-945c-dc74b2c64629",
         "0b2edb1c-f5e3-4e40-b3db-6db2cb246f14",
-        "63740785-0cd6-4546-901b-9c020b1af8bd"
+        "63740785-0cd6-4546-901b-9c020b1af8bd",
+        "e84b2c5e-691e-42c3-9f29-f60244dcf17f"
     ],
     "filterType": "GMScript",
     "folderName": "level",
