@@ -1,1 +1,1 @@
-particle_spawn_generic( x,y,particle_spr,random_range( 12,17 ) )
+particle_spawn_gibs( x,y,particle_spr,random_range( 12,17 ) )

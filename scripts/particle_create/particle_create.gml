@@ -13,3 +13,5 @@ particle.sprite_index = sprite
 particle.image_index = random_range( 0,particle.image_number )
 particle.x_vel = x_vel
 particle.y_vel = y_vel
+
+return( particle )

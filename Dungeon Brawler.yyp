@@ -431,6 +431,14 @@
             }
         },
         {
+            "Key": "78c792ee-b60b-487e-863b-f78d8eb2a7a7",
+            "Value": {
+                "id": "cd02a7c2-e4b7-4f15-b30c-161b492abccf",
+                "resourcePath": "scripts\\particle_spawn_gibs\\particle_spawn_gibs.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "7db8bc4c-4f91-47a7-a9d6-dde9fdb8b196",
             "Value": {
                 "id": "a95d25b4-d20b-46b0-b85d-000e05a73b25",
@@ -867,7 +875,8 @@
         "f024f6b6-e918-4f9c-a40b-05fd26742cd6",
         "dec0bcc5-4d7f-4150-b455-d8410863a618",
         "0282d5f2-456e-4399-a2ac-d12034f10776",
-        "376f34d1-ebd9-4016-891d-1857673cc57f"
+        "376f34d1-ebd9-4016-891d-1857673cc57f",
+        "78c792ee-b60b-487e-863b-f78d8eb2a7a7"
     ],
     "tutorial": ""
 }
