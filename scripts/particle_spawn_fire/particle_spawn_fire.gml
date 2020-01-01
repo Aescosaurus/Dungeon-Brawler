@@ -3,8 +3,8 @@ var y_pos = argument1
 var sprite = argument2
 var n_particles = argument3
 
-var x_dev = 2
-var y_dev = 2
+var x_dev = sprite_width / 4
+var y_dev = sprite_height / 4
 
 for( var i = 0; i < n_particles; ++i )
 {

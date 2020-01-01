@@ -1,1 +1,0 @@
-particle_spawn_generic( x,y,enemy_snake_particle_spr,14 )
