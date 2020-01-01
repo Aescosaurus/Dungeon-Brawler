@@ -29,9 +29,14 @@ for( var i = 0; i < random_range( low,high ); ++i )
 	else/* if( level < 12 )*/ max_enemy = 3
 	var rand_num = irandom_range( 0,max_enemy )
 	
-	var enemy = instance_create_layer( x_pos,y_pos,"instances",
-		enemy_pool[flr,rand_num] )
-	
-	enemy.x = x_pos
-	enemy.y = y_pos
+	// var enemy = instance_create_layer( x_pos,y_pos,"instances",
+	// 	enemy_pool[flr,rand_num] )
+	// 
+	// enemy.x = x_pos
+	// enemy.y = y_pos
+	var spawner = instance_create_layer( x_pos,y_pos,"instances",
+		enemy_spawner_obj )
+	spawner.x = x_pos
+	spawner.y = y_pos
+	spawner.enemy = enemy_pool[flr,rand_num]
 }

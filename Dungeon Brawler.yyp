@@ -223,6 +223,14 @@
             }
         },
         {
+            "Key": "376f34d1-ebd9-4016-891d-1857673cc57f",
+            "Value": {
+                "id": "56c369d3-664f-4639-b940-67a44033960b",
+                "resourcePath": "scripts\\particle_spawn_fire\\particle_spawn_fire.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "388c15d2-2d91-40a6-85eb-3222c22c0d53",
             "Value": {
                 "id": "7890f0af-4d96-47c5-9dec-8a2f4f1997c6",
@@ -679,6 +687,14 @@
             }
         },
         {
+            "Key": "ca4cc806-1473-4c81-b445-9dabc7894700",
+            "Value": {
+                "id": "1d428a15-6c6e-499b-9151-7fb4688fc4a8",
+                "resourcePath": "objects\\enemy_spawner_obj\\enemy_spawner_obj.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "ca67a5c6-da64-4468-9743-98d45fb4125d",
             "Value": {
                 "id": "85d29ebd-3624-41e8-89dd-7f39830d4dd8",
@@ -850,7 +866,8 @@
         "aae20514-9dc2-4699-950e-a91c206c50fa",
         "f024f6b6-e918-4f9c-a40b-05fd26742cd6",
         "dec0bcc5-4d7f-4150-b455-d8410863a618",
-        "0282d5f2-456e-4399-a2ac-d12034f10776"
+        "0282d5f2-456e-4399-a2ac-d12034f10776",
+        "376f34d1-ebd9-4016-891d-1857673cc57f"
     ],
     "tutorial": ""
 }
