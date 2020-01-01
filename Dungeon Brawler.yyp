@@ -223,6 +223,14 @@
             }
         },
         {
+            "Key": "2daefc0f-a8ad-42cc-baaf-2cebe0de4f94",
+            "Value": {
+                "id": "b16cbd91-8965-4360-8459-c1272808d669",
+                "resourcePath": "views\\2daefc0f-a8ad-42cc-baaf-2cebe0de4f94.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "347c41ff-4dfb-4959-8596-454895e4f198",
             "Value": {
                 "id": "6573e253-2dfc-407f-8eb3-6a708d515951",
@@ -444,6 +452,14 @@
                 "id": "3b09cf69-b40b-4725-a415-fdf47e4d5e5c",
                 "resourcePath": "scripts\\particle_spawn_fireworks\\particle_spawn_fireworks.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "7354d8f1-c6fe-40f8-b79b-57c65077f5a4",
+            "Value": {
+                "id": "a7f262e8-3161-4f5f-b681-643e73280154",
+                "resourcePath": "sprites\\boss_snake_spr\\boss_snake_spr.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
