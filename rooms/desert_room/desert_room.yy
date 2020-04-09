@@ -1,6 +1,6 @@
 
 {
-    "name": "random_room",
+    "name": "desert_room",
     "id": "09ba416a-1d67-456b-9f54-e5e7500add85",
     "creationCodeFile": "",
     "inheritCode": false,
