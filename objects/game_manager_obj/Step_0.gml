@@ -1,5 +1,5 @@
-if( ( done_loading && instance_number( enemy_base_obj ) < 1 ) ||
-	keyboard_check_pressed( vk_space ) )
+if( ( done_loading && instance_number( enemy_base_obj ) < 1 )/* ||
+	keyboard_check_pressed( vk_space ) */ )
 {
 	instance_destroy( enemy_bullet_base_obj,false )
 	

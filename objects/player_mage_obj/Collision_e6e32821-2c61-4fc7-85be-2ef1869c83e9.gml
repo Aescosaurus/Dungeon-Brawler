@@ -1,0 +1,1 @@
+other.player1 = true

@@ -5,13 +5,13 @@
     "name": "play_volcano_button_obj",
     "eventList": [
         {
-            "id": "28e470a4-f4d8-495f-b1ec-7eb56fd8f076",
+            "id": "2a99fe2b-91bc-43e9-869b-4564dbbec358",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 4,
-            "eventtype": 6,
+            "enumb": 0,
+            "eventtype": 0,
             "m_owner": "cfd3769b-a130-4f67-a27f-e3608d69395c"
         }
     ],

@@ -5,13 +5,13 @@
     "name": "play_sea_button_obj",
     "eventList": [
         {
-            "id": "28b9c0c0-09ed-4660-bedf-26cd68aeedc8",
+            "id": "e75f17a9-d52c-4deb-8962-f27f5b0536a3",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 4,
-            "eventtype": 6,
+            "enumb": 0,
+            "eventtype": 0,
             "m_owner": "ae392fd2-7e4b-4ad6-acb3-0d407c8385ae"
         }
     ],

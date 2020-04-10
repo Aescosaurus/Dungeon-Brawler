@@ -5,13 +5,13 @@
     "name": "play_desert_button_obj",
     "eventList": [
         {
-            "id": "a7bab007-e5a0-4753-bb4d-ecef25c4374e",
+            "id": "918c954e-4a13-41a7-8a93-1f4545774858",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 4,
-            "eventtype": 6,
+            "enumb": 0,
+            "eventtype": 0,
             "m_owner": "3a9e8b4e-5969-4619-b0a6-c43c40429344"
         }
     ],

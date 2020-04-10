@@ -114,7 +114,7 @@
                     0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
                 ]
             },
-            "tilesetId": "1f5bb3c6-1fa2-4029-b659-a2e6465dcf30",
+            "tilesetId": "738c0ae4-49f7-4ac2-919f-a33bc114645d",
             "userdefined_depth": false,
             "visible": true,
             "x": 0,
