@@ -15,4 +15,5 @@ alarm_set( 2,0.0 )
 {
 	done_loading = false
 	level_generate()
+	cur_level += 1
 }
