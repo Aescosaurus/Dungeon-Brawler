@@ -16,19 +16,14 @@ if( timer_is_done( shoot_timer ) )
 {
 	shoot_timer[0] = 0.0
 	
-	var angle = 0.0
-	
-	// for( var i = -1; i < 2; ++i )
+	// var angle = 0.0
+	// 
+	// for( var i = 0; i <= 8; ++i )
 	// {
 	// 	var bullet = instance_create_layer( x,y,"instances",enemy_slime_bullet_obj )
-	// 	bullet.x_vel = cos( angle + shot_deviation * i )
-	// 	bullet.y_vel = sin( angle + shot_deviation * i )
+	// 	bullet.x_vel = cos( angle )
+	// 	bullet.y_vel = sin( angle )
+	// 	angle = ( i / 8 ) * ( pi * 2.0 )
 	// }
-	for( var i = 0; i <= 8; ++i )
-	{
-		var bullet = instance_create_layer( x,y,"instances",enemy_slime_bullet_obj )
-		bullet.x_vel = cos( angle )
-		bullet.y_vel = sin( angle )
-		angle = ( i / 8 ) * ( pi * 2.0 )
-	}
+	bullet_circle( x,y,enemy_slime_bullet_obj,8,0.0 )
 }

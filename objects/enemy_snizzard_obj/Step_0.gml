@@ -24,14 +24,17 @@ if( timer_is_done( shoot_timer ) )
 {
 	shoot_timer[0] = 0.0
 	
-	var x_diff = player.x - x
-	var y_diff = player.y - y
-	var angle = arctan2( y_diff,x_diff )
-	
-	for( var i = -1; i < 2; ++i )
-	{
-		var bullet = instance_create_layer( x,y,"instances",enemy_snake_bullet_obj )
-		bullet.x_vel = cos( angle + shot_deviation * i )
-		bullet.y_vel = sin( angle + shot_deviation * i )
-	}
+	// var x_diff = player.x - x
+	// var y_diff = player.y - y
+	// var angle = arctan2( y_diff,x_diff )
+	// 
+	// for( var i = -1; i < 2; ++i )
+	// {
+	// 	var bullet = instance_create_layer( x,y,"instances",enemy_snake_bullet_obj )
+	// 	bullet.x_vel = cos( angle + shot_deviation * i )
+	// 	bullet.y_vel = sin( angle + shot_deviation * i )
+	// }
+	bullet_shotgun( x,y,enemy_snake_bullet_obj,
+		get_target_angle( x,y,player.x,player.y ),
+		3,shot_deviation,0.0 )
 }
