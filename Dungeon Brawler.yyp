@@ -127,11 +127,27 @@
             }
         },
         {
+            "Key": "112ade52-ce48-4aeb-abce-887cfdd4a801",
+            "Value": {
+                "id": "41de5f79-25d3-45bd-97c1-beae50ef3b33",
+                "resourcePath": "objects\\boss_snake_obj\\boss_snake_obj.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "1344d235-f54f-498d-b6d7-741b991b1f23",
             "Value": {
                 "id": "cb026bc1-576a-47db-9b95-3cacd32c738d",
                 "resourcePath": "sprites\\enemy_ghost_spr\\enemy_ghost_spr.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "13d00768-54e7-4719-a7bc-0e636a443bef",
+            "Value": {
+                "id": "279857a0-d543-4e07-9489-e1886e2fc3a2",
+                "resourcePath": "views\\13d00768-54e7-4719-a7bc-0e636a443bef.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
