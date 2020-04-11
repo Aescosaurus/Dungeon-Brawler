@@ -2,7 +2,7 @@ var dt = get_delta_time()
 
 var x_vel = mouse_x - x
 var y_vel = mouse_y - y
-if( mouse_check_button( 0 ) )
+if( mouse_check_button( mb_left ) )
 {
 	var len = get_len( x_vel,y_vel )
 	x_vel = x_vel / len * move_speed * dt
@@ -16,14 +16,17 @@ if( mouse_check_button( 0 ) )
 
 // Handle shooting magic missiles.
 attack_timer[0] += dt
-if( timer_is_done( attack_timer ) && mouse_check_button( 0 ) )
+if( timer_is_done( attack_timer ) && mouse_check_button( mb_left ) )
 {
 	attack_timer[0] = 0.0
 	attacking = true
 	
 	for( var i = 0; i < 2; ++i )
 	{
-		var bullet = instance_create_layer( x,y,"instances",sword_slash_obj )
+		var bullet = instance_create_layer( x,y,"instances",meteor_obj )
+		bullet.x = mouse_x
+		bullet.y = mouse_y - 32
+		bullet.target_y = mouse_y
 		// bullet.x_vel = x_vel / len
 		// bullet.y_vel = y_vel / len
 		// bullet.image_angle = radtodeg( -arctan2( y_vel,x_vel ) - pi / 2.5 + i * ( pi / 8.0 ) )

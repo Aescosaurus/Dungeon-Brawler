@@ -1,5 +1,5 @@
-move_speed = 35.3
-attack_timer = timer_create( 0.6 )
+move_speed = 18.2
+attack_timer = timer_create( 2.6 )
 attacking = false
 anim_timer = timer_create( 0.3 )
 
