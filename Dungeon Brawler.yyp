@@ -159,6 +159,14 @@
             }
         },
         {
+            "Key": "1407971d-f120-4418-aed8-87fcb9b64374",
+            "Value": {
+                "id": "00451864-b1c4-4c30-92e1-7c4af0f6faec",
+                "resourcePath": "objects\\player_astronomer_obj\\player_astronomer_obj.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "15c05514-8821-44b8-8253-10021ca62086",
             "Value": {
                 "id": "f85aaa7f-2e70-4674-8c4d-d8eacd1cbd28",
@@ -171,6 +179,14 @@
             "Value": {
                 "id": "f376238d-cdbf-4dfd-bda4-b8b321bfb383",
                 "resourcePath": "sprites\\volcano_tiles_spr\\volcano_tiles_spr.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "16cc4522-632a-424b-b952-53ac260d8c65",
+            "Value": {
+                "id": "cfa74333-7c40-496d-9a78-37283fb08ab6",
+                "resourcePath": "sprites\\player_astronomer_spr\\player_astronomer_spr.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -439,6 +455,14 @@
             }
         },
         {
+            "Key": "49a16406-9051-4862-8bd1-7cc2b443d905",
+            "Value": {
+                "id": "87208dc2-a612-414e-8dad-ddc6ea177a56",
+                "resourcePath": "scripts\\level_draw_rect_dim\\level_draw_rect_dim.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "4ac779d7-1cb8-4c14-a2a3-e6fea4a0f540",
             "Value": {
                 "id": "06cf0675-e241-4e88-90f4-ae9177ee8357",
@@ -511,11 +535,27 @@
             }
         },
         {
+            "Key": "5a1c5456-912a-4244-a33e-f6eaa9bd0471",
+            "Value": {
+                "id": "ed270251-135c-40ec-b2f2-02af5e34c994",
+                "resourcePath": "scripts\\rect_get_rand_pos\\rect_get_rand_pos.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "5d85ad05-2f05-40f0-be5a-e950984795d4",
             "Value": {
                 "id": "161478e0-6cfd-4d3c-905b-b85011d28fc0",
                 "resourcePath": "objects\\sword_slash_obj\\sword_slash_obj.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "5e86e2df-af05-4184-8db7-f5625dfeb054",
+            "Value": {
+                "id": "1b8b4729-fd1f-4e9e-bb60-337801756753",
+                "resourcePath": "scripts\\circle_create\\circle_create.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -564,6 +604,14 @@
                 "id": "3b09cf69-b40b-4725-a415-fdf47e4d5e5c",
                 "resourcePath": "scripts\\particle_spawn_fireworks\\particle_spawn_fireworks.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "72681c59-c266-4764-a63d-c3f554554439",
+            "Value": {
+                "id": "f3df28d1-010a-43a0-a38a-a9034b53c2eb",
+                "resourcePath": "views\\72681c59-c266-4764-a63d-c3f554554439.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
@@ -759,6 +807,14 @@
             }
         },
         {
+            "Key": "9660736c-f2c8-4e7a-9ce0-be8551e542b6",
+            "Value": {
+                "id": "b79fd467-3a10-414c-a215-a6cd510a0ee8",
+                "resourcePath": "objects\\meteor_obj\\meteor_obj.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "966452c2-675a-4f8b-82fd-b2d400145303",
             "Value": {
                 "id": "cdd37704-b9b0-4b56-9218-f5f440e55381",
@@ -796,6 +852,14 @@
                 "id": "5677e072-14de-4e60-9835-7c953768a3ff",
                 "resourcePath": "views\\9dcbe0fc-caca-430e-b46f-814306a3dea2.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "9e9bd69a-0228-438c-8075-74927947bf80",
+            "Value": {
+                "id": "30a74ef1-391a-4ee4-8879-bdebc103f6ee",
+                "resourcePath": "scripts\\rect_create_size\\rect_create_size.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -943,6 +1007,14 @@
             }
         },
         {
+            "Key": "c87c9b93-dac4-4ced-b9a9-3e60ed65437b",
+            "Value": {
+                "id": "ccedeec7-c246-491f-8b40-24a18a144cc4",
+                "resourcePath": "sprites\\meteor_spr\\meteor_spr.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "ca4cc806-1473-4c81-b445-9dabc7894700",
             "Value": {
                 "id": "1d428a15-6c6e-499b-9151-7fb4688fc4a8",
@@ -1028,6 +1100,14 @@
                 "id": "881b6d52-e3be-4430-a76a-ed24d31c2f56",
                 "resourcePath": "views\\d4feed7d-e736-468b-9017-4f7186f36508.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "d76377fb-ec37-4895-ba8d-03c20b76b7c2",
+            "Value": {
+                "id": "eed1a029-3993-43f0-b87a-3b8d427a3875",
+                "resourcePath": "scripts\\vec2_create\\vec2_create.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -1119,6 +1199,14 @@
             }
         },
         {
+            "Key": "f1e0d976-c8ce-474e-8e6d-1d1c29e5ff2a",
+            "Value": {
+                "id": "a0150b9b-1e9b-424a-9110-983c125c0180",
+                "resourcePath": "scripts\\circle_get_rand_pos\\circle_get_rand_pos.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "f3bdbc2d-b8f5-4995-baa5-23b3cab6e12a",
             "Value": {
                 "id": "6555fde9-67e5-4b7a-aeea-7a6d95cbb0af",
@@ -1165,6 +1253,7 @@
         "751fab79-45fc-4c7e-859f-eb2d1bbcd86d",
         "a49f6b32-15d8-45e6-a7da-9ab61c1caadc",
         "397933f9-7052-4996-a2fa-797b478beec1",
+        "d76377fb-ec37-4895-ba8d-03c20b76b7c2",
         "42cd1ff3-43ef-4685-ab12-f29d383ac362",
         "aacd00fc-80ff-47a5-92fb-7e95efbb952d",
         "1881dba6-aace-455b-b1ff-8d5b41b2c3b7",
@@ -1180,6 +1269,7 @@
         "966452c2-675a-4f8b-82fd-b2d400145303",
         "4ac779d7-1cb8-4c14-a2a3-e6fea4a0f540",
         "d2e349fd-7b95-4421-b2ae-6a718365c0f0",
+        "49a16406-9051-4862-8bd1-7cc2b443d905",
         "bc9dee6e-8451-4103-945c-dc74b2c64629",
         "0b2edb1c-f5e3-4e40-b3db-6db2cb246f14",
         "63740785-0cd6-4546-901b-9c020b1af8bd",
@@ -1188,7 +1278,11 @@
         "cc3f7d72-bc05-4c78-ac81-61c3844e3232",
         "b12ac098-51e4-4d18-897e-2929933587bd",
         "aae20514-9dc2-4699-950e-a91c206c50fa",
+        "9e9bd69a-0228-438c-8075-74927947bf80",
         "f024f6b6-e918-4f9c-a40b-05fd26742cd6",
+        "5a1c5456-912a-4244-a33e-f6eaa9bd0471",
+        "5e86e2df-af05-4184-8db7-f5625dfeb054",
+        "f1e0d976-c8ce-474e-8e6d-1d1c29e5ff2a",
         "dec0bcc5-4d7f-4150-b455-d8410863a618",
         "0282d5f2-456e-4399-a2ac-d12034f10776",
         "376f34d1-ebd9-4016-891d-1857673cc57f",
