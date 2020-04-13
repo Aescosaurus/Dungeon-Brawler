@@ -167,6 +167,14 @@
             }
         },
         {
+            "Key": "14503c8d-761b-426c-8c32-f7d61850e6e8",
+            "Value": {
+                "id": "65d0d169-7dce-4eab-b8b7-10f066a0f795",
+                "resourcePath": "objects\\enemy_crab_obj\\enemy_crab_obj.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "15c05514-8821-44b8-8253-10021ca62086",
             "Value": {
                 "id": "f85aaa7f-2e70-4674-8c4d-d8eacd1cbd28",
@@ -220,6 +228,14 @@
                 "id": "4b45b59a-fd1b-48e0-80d3-26ae337de369",
                 "resourcePath": "views\\1a327a72-be12-4137-a9c9-bedf548033c0.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "1ab03377-f658-4696-83d2-5c1bd7afdfe1",
+            "Value": {
+                "id": "b5d6f1c9-25f7-4a67-a37b-b5c0359afc5f",
+                "resourcePath": "sprites\\enemy_jelly_spr\\enemy_jelly_spr.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -284,6 +300,14 @@
                 "id": "c0863b1a-42d9-4ac4-a531-7d89e48bb7ce",
                 "resourcePath": "sprites\\firework_2_particle_spr\\firework_2_particle_spr.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "287519e8-6a21-455a-a023-26de7e553781",
+            "Value": {
+                "id": "ccc2c96a-4350-4581-8d10-04f3d3bcd0cd",
+                "resourcePath": "objects\\enemy_jelly_bullet_obj\\enemy_jelly_bullet_obj.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -567,6 +591,14 @@
             }
         },
         {
+            "Key": "64033c6a-1502-42d2-a580-48913e1688c3",
+            "Value": {
+                "id": "07c1459f-d32b-426d-9a4a-06c78454996b",
+                "resourcePath": "sprites\\enemy_jelly_bullet_spr\\enemy_jelly_bullet_spr.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "6406f3ec-3a13-4214-9ee1-449482ab2ae1",
             "Value": {
                 "id": "b31f3cc0-860d-4b49-968d-bd96e44e9ffa",
@@ -604,6 +636,14 @@
                 "id": "3b09cf69-b40b-4725-a415-fdf47e4d5e5c",
                 "resourcePath": "scripts\\particle_spawn_fireworks\\particle_spawn_fireworks.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "6fe5399b-3bd4-4964-8988-8753ba290dfb",
+            "Value": {
+                "id": "2e7b7e2b-8606-448e-b109-bbe19968b087",
+                "resourcePath": "sprites\\enemy_crab_spr\\enemy_crab_spr.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -967,6 +1007,14 @@
             }
         },
         {
+            "Key": "b8a4b97d-c6da-4f48-9816-af5658ee4c51",
+            "Value": {
+                "id": "54185e01-2cda-47db-947e-500a2b0ff9b4",
+                "resourcePath": "sprites\\enemy_crab_bullet_spr\\enemy_crab_bullet_spr.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "b91c9d86-32ef-42bd-a4cd-6388be6c2271",
             "Value": {
                 "id": "72e9057e-dbe9-4fa1-a266-2dabf402f4d0",
@@ -996,6 +1044,14 @@
                 "id": "82ac3b5e-377a-4bb9-8209-1b4a8b54ceed",
                 "resourcePath": "scripts\\level_draw_circle\\level_draw_circle.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "beb7c03f-a288-4b96-9e0a-abd3b023e5ff",
+            "Value": {
+                "id": "867eb50f-a8c8-460a-a844-568d9f35882f",
+                "resourcePath": "objects\\enemy_crab_bullet_obj\\enemy_crab_bullet_obj.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -1236,6 +1292,14 @@
                 "id": "4415b29b-013d-49ee-bbd0-605cd29fff42",
                 "resourcePath": "options\\mac\\options_mac.yy",
                 "resourceType": "GMMacOptions"
+            }
+        },
+        {
+            "Key": "f8f7e1b5-0088-4f7b-a319-da068c437fec",
+            "Value": {
+                "id": "bd2c5d37-9d4d-41da-bfc1-98cd0c9950eb",
+                "resourcePath": "objects\\enemy_jelly_obj\\enemy_jelly_obj.yy",
+                "resourceType": "GMObject"
             }
         },
         {

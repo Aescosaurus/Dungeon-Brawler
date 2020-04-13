@@ -4,6 +4,10 @@ var enemy_pool = game_manager_obj.enemy_pool
 var enemy_parts = game_manager_obj.enemy_parts
 var tilemap = layer_tilemap_get_id( "tilemap" )
 
+if( room == desert_room ) flr = 0
+else if( room == sea_room ) flr = 1
+else flr = 2
+
 // var low = max( 3,level / 4 )
 // var high = min( low + 2,level / 2 )
 var low = max( 3,level / 3 )
