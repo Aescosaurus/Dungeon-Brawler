@@ -120,6 +120,16 @@ level_draw_rect( width - 1,0,1,height,2,tilemap,scr_rect )
 level_draw_rect( 0,height - 1,width,1,2,tilemap,scr_rect )
 level_draw_rect( 0,0,1,height,2,tilemap,scr_rect )
 
+for( var i = 0; i < width * height * 0.1; ++i )
+{
+	var rand_x = random_range( 0,width * tile_width )
+	var rand_y = random_range( 0,height * tile_height )
+	if( tilemap_get_at_pixel( tilemap,rand_x,rand_y ) > 1 )
+	{
+		tilemap_set_at_pixel( tilemap,3,rand_x,rand_y )
+	}
+}
+
 // Set alarms that spawn players and enemies.
 alarm_set( 0,60 * 0.1 )
 

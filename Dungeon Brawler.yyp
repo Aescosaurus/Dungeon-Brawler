@@ -855,6 +855,14 @@
             }
         },
         {
+            "Key": "8d4986b4-6591-4141-957c-65d75d7ad914",
+            "Value": {
+                "id": "adc5e7fc-9ef3-43c8-86fd-4a7f980a3a67",
+                "resourcePath": "sprites\\enemy_sea_particle_spr\\enemy_sea_particle_spr.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "8da7449a-9703-4e22-9489-9b6f21e313df",
             "Value": {
                 "id": "84b18d57-285d-422c-ab4c-19d145010090",
