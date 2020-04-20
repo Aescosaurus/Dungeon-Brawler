@@ -487,6 +487,14 @@
             }
         },
         {
+            "Key": "442bc53c-989f-4f83-aa8a-087ef553332b",
+            "Value": {
+                "id": "900f2c9f-0cff-4aa3-a6df-cff5d74cbb35",
+                "resourcePath": "objects\\enemy_squid_obj\\enemy_squid_obj.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "458e176f-2379-46cd-b03f-5290144c1b78",
             "Value": {
                 "id": "0f4f6a47-df8a-47f4-923e-b3d949284536",
