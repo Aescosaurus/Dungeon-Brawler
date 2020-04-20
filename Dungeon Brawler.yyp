@@ -255,6 +255,14 @@
             }
         },
         {
+            "Key": "1f2bf42a-0ecc-4bcf-bfa0-034359e1e1e0",
+            "Value": {
+                "id": "55abb792-68fb-4e54-a37a-be4221508159",
+                "resourcePath": "sprites\\enemy_squid_spr\\enemy_squid_spr.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "1f5bb3c6-1fa2-4029-b659-a2e6465dcf30",
             "Value": {
                 "id": "503414cd-0235-4afe-a269-bbd8a2cbfd56",
@@ -332,6 +340,14 @@
                 "id": "b16cbd91-8965-4360-8459-c1272808d669",
                 "resourcePath": "views\\2daefc0f-a8ad-42cc-baaf-2cebe0de4f94.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "2ebadbc7-4df0-422d-a78d-46b2471a051d",
+            "Value": {
+                "id": "b78ce78a-a924-443d-8747-2e1a3719be94",
+                "resourcePath": "sprites\\enemy_fish_spr\\enemy_fish_spr.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -1044,6 +1060,14 @@
                 "id": "82ac3b5e-377a-4bb9-8209-1b4a8b54ceed",
                 "resourcePath": "scripts\\level_draw_circle\\level_draw_circle.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "bca4687a-4d7b-4a5a-baca-b94acaf9a631",
+            "Value": {
+                "id": "e04262c3-68bc-4685-aafd-b98c7cf2c9c0",
+                "resourcePath": "objects\\enemy_fish_obj\\enemy_fish_obj.yy",
+                "resourceType": "GMObject"
             }
         },
         {

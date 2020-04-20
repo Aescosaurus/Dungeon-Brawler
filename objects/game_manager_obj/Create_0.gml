@@ -1,4 +1,4 @@
-cur_level = 2
+cur_level = 3
 // max_level_count = 12
 done_loading = false
 
@@ -13,5 +13,6 @@ enemy_pool[0,2] = enemy_snizzard_obj; enemy_parts[0,2] = enemy_snake_particle_sp
 enemy_pool[0,3] = enemy_ghost_obj;    enemy_parts[0,3] = enemy_slime_particle_spr
 enemy_pool[0,4] = boss_snake_obj;     enemy_parts[0,4] = enemy_snake_particle_spr
 
-enemy_pool[1,0] = enemy_jelly_obj;    enemy_parts[1,0] = enemy_slime_particle_spr
-enemy_pool[1,1] = enemy_crab_obj;     enemy_parts[1,1] = enemy_slime_particle_spr
+enemy_pool[1,0] = enemy_jelly_obj;    enemy_parts[1,0] = enemy_snake_particle_spr
+enemy_pool[1,1] = enemy_crab_obj;     enemy_parts[1,1] = enemy_snake_particle_spr
+enemy_pool[1,2] = enemy_fish_obj;     enemy_parts[1,2] = enemy_slime_particle_spr
