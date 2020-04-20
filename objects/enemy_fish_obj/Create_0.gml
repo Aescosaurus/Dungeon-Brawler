@@ -1,4 +1,4 @@
-hp = 7
+hp = 4
 particle_spr = enemy_slime_particle_spr
 
 anim_timer = timer_create( 1.0 )

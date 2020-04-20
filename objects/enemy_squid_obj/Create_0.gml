@@ -1,4 +1,4 @@
-hp = 7
+hp = 5
 particle_spr = enemy_snake_particle_spr
 
 anim_timer = timer_create( 1.0 )
