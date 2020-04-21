@@ -38,23 +38,26 @@ for( var i = 0; i < random_range( low,high ); ++i )
 	spawner.particle_spr = enemy_parts[flr,rand_num]
 }
 
-for( var i = 0; i < floor( level / 7 ); ++i )
+if( level % 7 == 0 )
 {
-	var x_pos = -1
-	var y_pos = -1
-	do
+	for( var i = 0; i < floor( level / 7 ); ++i )
 	{
-		x_pos = random_range( 0,room_width )
-		y_pos = random_range( 0,room_height )
+		var x_pos = -1
+		var y_pos = -1
+		do
+		{
+			x_pos = random_range( 0,room_width )
+			y_pos = random_range( 0,room_height )
+		}
+		until( tilemap_get_at_pixel( tilemap,x_pos,y_pos ) < 2 )
+		
+		var spawner = instance_create_layer( x_pos,y_pos,"instances",
+			enemy_spawner_obj )
+		spawner.x = x_pos
+		spawner.y = y_pos
+		spawner.enemy = enemy_pool[flr,4]
+		spawner.particle_spr = enemy_parts[flr,4]
+		spawner.particle_min = 5
+		spawner.particle_max = 11
 	}
-	until( tilemap_get_at_pixel( tilemap,x_pos,y_pos ) < 2 )
-	
-	var spawner = instance_create_layer( x_pos,y_pos,"instances",
-		enemy_spawner_obj )
-	spawner.x = x_pos
-	spawner.y = y_pos
-	spawner.enemy = enemy_pool[flr,4]
-	spawner.particle_spr = enemy_parts[flr,4]
-	spawner.particle_min = 5
-	spawner.particle_max = 11
 }
