@@ -87,6 +87,14 @@
             }
         },
         {
+            "Key": "0a62e2f4-0e1a-4724-9386-0b06381d8297",
+            "Value": {
+                "id": "ffc155cb-f022-41c0-b693-73e905d55d73",
+                "resourcePath": "sounds\\ambient_volcano_mus\\ambient_volcano_mus.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "0b296509-654a-418e-bc75-8cd3e6c0465f",
             "Value": {
                 "id": "0e1365de-9720-4e9b-a741-01badedd9cf2",
@@ -663,6 +671,14 @@
             }
         },
         {
+            "Key": "6d708fb3-1889-4bb6-befe-b9b5ee3cf9a0",
+            "Value": {
+                "id": "8d977fdc-f570-4d6a-8799-d796c5031b36",
+                "resourcePath": "objects\\music_player_obj\\music_player_obj.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "6fe5399b-3bd4-4964-8988-8753ba290dfb",
             "Value": {
                 "id": "2e7b7e2b-8606-448e-b109-bbe19968b087",
@@ -879,6 +895,22 @@
             }
         },
         {
+            "Key": "92dce6e3-812b-430f-a20a-c1af7ba61657",
+            "Value": {
+                "id": "438063af-b785-497b-9341-5f3c249ce20e",
+                "resourcePath": "sounds\\volcano_mus\\volcano_mus.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
+            "Key": "94a8bf3d-7f8f-4898-8dd0-75fde2512376",
+            "Value": {
+                "id": "177e8d39-e446-4b80-8133-175681a78559",
+                "resourcePath": "sounds\\desert_mus\\desert_mus.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "9660736c-f2c8-4e7a-9ce0-be8551e542b6",
             "Value": {
                 "id": "b79fd467-3a10-414c-a215-a6cd510a0ee8",
@@ -892,6 +924,14 @@
                 "id": "cdd37704-b9b0-4b56-9218-f5f440e55381",
                 "resourcePath": "scripts\\handle_player_movement\\handle_player_movement.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "96c716f6-4e90-4f9f-bece-72723ccb0682",
+            "Value": {
+                "id": "e717a22c-4a09-4158-8e7d-8f21151a5091",
+                "resourcePath": "sounds\\menu_mus\\menu_mus.yy",
+                "resourceType": "GMSound"
             }
         },
         {
@@ -916,6 +956,14 @@
                 "id": "e05e2e9a-af47-4945-8d59-dc679133e4ec",
                 "resourcePath": "views\\9c41a9f1-6f4e-46f7-bee5-d6766c4086aa.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "9c87bd39-856e-4a3f-b89a-4a4bd6940d5d",
+            "Value": {
+                "id": "5c6f3355-293b-4127-97cc-9333ff53bc9e",
+                "resourcePath": "sounds\\sea_mus\\sea_mus.yy",
+                "resourceType": "GMSound"
             }
         },
         {
@@ -1279,6 +1327,14 @@
             }
         },
         {
+            "Key": "e69d66b0-5a8c-43d1-ab70-bc3e2db94d6e",
+            "Value": {
+                "id": "ea899a41-cf1d-436d-8dde-aac833dbcdac",
+                "resourcePath": "sounds\\ambient_desert_mus\\ambient_desert_mus.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "e7d2d144-f0d9-495f-8689-cf28a0430666",
             "Value": {
                 "id": "4b997426-288b-4335-a7a5-a8ff8d71f8cb",
@@ -1332,6 +1388,14 @@
                 "id": "4415b29b-013d-49ee-bbd0-605cd29fff42",
                 "resourcePath": "options\\mac\\options_mac.yy",
                 "resourceType": "GMMacOptions"
+            }
+        },
+        {
+            "Key": "f4bbe694-ed4b-42c4-b321-14800e2d13c2",
+            "Value": {
+                "id": "ea004518-fb8b-4bc7-a94c-36e2929a17c1",
+                "resourcePath": "sounds\\ambient_sea_mus\\ambient_sea_mus.yy",
+                "resourceType": "GMSound"
             }
         },
         {

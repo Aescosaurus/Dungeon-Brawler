@@ -1,4 +1,4 @@
-cur_level = 14
+cur_level = 0
 // max_level_count = 12
 done_loading = false
 
