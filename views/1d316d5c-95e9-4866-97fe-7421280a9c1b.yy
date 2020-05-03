@@ -7,7 +7,9 @@
         "65f74597-da1f-47ca-ad35-aeb044dac3a4",
         "24df91c1-0f77-49df-92a0-846fee871e59",
         "64033c6a-1502-42d2-a580-48913e1688c3",
-        "b8a4b97d-c6da-4f48-9816-af5658ee4c51"
+        "b8a4b97d-c6da-4f48-9816-af5658ee4c51",
+        "af3db80c-5511-4c88-bf83-e48fe45cad4a",
+        "2d632234-d968-4129-8644-e7c50340aa80"
     ],
     "filterType": "GMSprite",
     "folderName": "enemy bullet",

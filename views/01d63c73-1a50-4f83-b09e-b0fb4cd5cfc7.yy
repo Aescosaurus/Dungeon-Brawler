@@ -8,7 +8,9 @@
         "d8a42c53-e2ec-42e5-9b07-08d4c40b6300",
         "4f128b08-3800-4493-899a-dc4d78712ed9",
         "287519e8-6a21-455a-a023-26de7e553781",
-        "beb7c03f-a288-4b96-9e0a-abd3b023e5ff"
+        "beb7c03f-a288-4b96-9e0a-abd3b023e5ff",
+        "0abfa6ea-969a-48e6-ad22-38fd0739de2a",
+        "46701a8c-545b-481e-a7f4-61ea85d94cce"
     ],
     "filterType": "GMObject",
     "folderName": "enemy bullet",
