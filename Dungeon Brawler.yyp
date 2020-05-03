@@ -599,6 +599,14 @@
             }
         },
         {
+            "Key": "5221fb6a-e447-4341-a0c2-4417e779cf65",
+            "Value": {
+                "id": "9b13bf00-3ead-498e-876f-97151846cc1b",
+                "resourcePath": "objects\\enemy_butcher_obj\\enemy_butcher_obj.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "53f1d3dc-48c3-4b3e-9b90-6e0d18601e5f",
             "Value": {
                 "id": "57deb995-2724-439a-bbeb-b3b13e5d8a04",
