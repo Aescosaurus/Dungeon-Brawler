@@ -991,6 +991,14 @@
             }
         },
         {
+            "Key": "a1c45d47-0fd7-43c6-8710-d70be49dd96c",
+            "Value": {
+                "id": "5c3dbef9-266f-4fc1-9a1e-6833a40ea399",
+                "resourcePath": "sprites\\lava_blob_spr\\lava_blob_spr.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "a46a1e9e-018c-4198-b93e-da8fc284f8a5",
             "Value": {
                 "id": "cfc066b8-94c4-4612-944e-b268ce18ebcb",
