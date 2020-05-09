@@ -527,6 +527,14 @@
             }
         },
         {
+            "Key": "438b7572-c8e3-4d57-a2f6-14779b67329b",
+            "Value": {
+                "id": "34ab3074-5bfa-4b22-bb26-af5418c4b10b",
+                "resourcePath": "sprites\\enemy_explode_ghost_spr\\enemy_explode_ghost_spr.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "4395b9a9-c08a-4a20-a80d-db0bdf01893f",
             "Value": {
                 "id": "88681cdd-8a75-4055-a41c-825fc6d5434e",
@@ -1107,6 +1115,14 @@
             "Value": {
                 "id": "dee534ca-4d92-41c8-bdf6-09b8ed3ff30d",
                 "resourcePath": "objects\\enemy_snizzard_obj\\enemy_snizzard_obj.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "a5d57c7d-86b4-4445-be23-286605c4c2ae",
+            "Value": {
+                "id": "99ac4b98-6c54-449e-b89b-8ff32c07387a",
+                "resourcePath": "objects\\enemy_explode_ghost_obj\\enemy_explode_ghost_obj.yy",
                 "resourceType": "GMObject"
             }
         },

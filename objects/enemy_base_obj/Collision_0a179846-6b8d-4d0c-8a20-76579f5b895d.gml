@@ -6,5 +6,6 @@ if( hp <= 0 )
 {
 	cam_shake( other.damage * 2 )
 	cam_zoom( 0.9 )
+	
 	instance_destroy()
 }
