@@ -16,6 +16,8 @@ if( timer_is_done( shoot_timer ) && ( x_vel != 0.0 || y_vel != 0.0 ) )
 	bullet.x_vel = x_vel / len
 	bullet.y_vel = y_vel / len
 	bullet.image_angle = radtodeg( -arctan2( y_vel,x_vel ) + pi + pi / 4.0 )
+	
+	// shake_screen( 0.5 )
 }
 
 if( attacking )
