@@ -154,7 +154,7 @@
             "Key": "0e721ee6-9fdc-44bd-a0e3-cf93125c3321",
             "Value": {
                 "id": "542f452b-7aa2-460e-8cc0-aa26289451cd",
-                "resourcePath": "objects\\camera_shaker_obj\\camera_shaker_obj.yy",
+                "resourcePath": "objects\\camera_handler_obj\\camera_handler_obj.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -842,7 +842,7 @@
             "Key": "7dec44fb-46c7-4638-8926-92185f1f1cde",
             "Value": {
                 "id": "e08b98af-3bb3-46f6-82a4-33f6ea2903a6",
-                "resourcePath": "scripts\\shake_screen\\shake_screen.yy",
+                "resourcePath": "scripts\\cam_shake\\cam_shake.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -1343,6 +1343,14 @@
             }
         },
         {
+            "Key": "cfe8b0ab-b0c8-4d14-8290-98b2ee081ea9",
+            "Value": {
+                "id": "05446791-2f22-4652-bef3-974f473fceb9",
+                "resourcePath": "views\\cfe8b0ab-b0c8-4d14-8290-98b2ee081ea9.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "d2e349fd-7b95-4421-b2ae-6a718365c0f0",
             "Value": {
                 "id": "a97fa3d5-0262-401e-af76-e95e3742b629",
@@ -1388,6 +1396,14 @@
                 "id": "66bdfe15-3b42-4bed-9fc7-e2b6fe2e86f6",
                 "resourcePath": "views\\dc1658a5-35f7-4716-a391-6e33d42ead9b.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "dd6a39b5-311a-4acf-808f-f965bee04861",
+            "Value": {
+                "id": "d18b3058-8036-42bd-a1e8-8783c38566b8",
+                "resourcePath": "scripts\\cam_zoom\\cam_zoom.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -1542,7 +1558,6 @@
         "a49f6b32-15d8-45e6-a7da-9ab61c1caadc",
         "397933f9-7052-4996-a2fa-797b478beec1",
         "d76377fb-ec37-4895-ba8d-03c20b76b7c2",
-        "7dec44fb-46c7-4638-8926-92185f1f1cde",
         "42cd1ff3-43ef-4685-ab12-f29d383ac362",
         "cdea9e75-8768-4400-a662-7b66257362d5",
         "aacd00fc-80ff-47a5-92fb-7e95efbb952d",
@@ -1577,7 +1592,9 @@
         "0282d5f2-456e-4399-a2ac-d12034f10776",
         "376f34d1-ebd9-4016-891d-1857673cc57f",
         "78c792ee-b60b-487e-863b-f78d8eb2a7a7",
-        "697b5e5a-f2c4-4b88-a334-a2d3b1ac9dab"
+        "697b5e5a-f2c4-4b88-a334-a2d3b1ac9dab",
+        "7dec44fb-46c7-4638-8926-92185f1f1cde",
+        "dd6a39b5-311a-4acf-808f-f965bee04861"
     ],
     "tutorial": ""
 }

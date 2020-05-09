@@ -2,7 +2,7 @@
     "id": "0e721ee6-9fdc-44bd-a0e3-cf93125c3321",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "camera_shaker_obj",
+    "name": "camera_handler_obj",
     "eventList": [
         {
             "id": "1c107b6d-846c-42bf-b9ce-29a7ee8e4572",

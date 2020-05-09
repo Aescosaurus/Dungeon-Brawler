@@ -1,9 +1,10 @@
 hp -= other.damage
 // instance_destroy( other )
-shake_screen( other.damage )
+cam_shake( other.damage )
 
 if( hp <= 0 )
 {
-	shake_screen( other.damage * 2 )
+	cam_shake( other.damage * 2 )
+	cam_zoom( 0.9 )
 	instance_destroy()
 }
