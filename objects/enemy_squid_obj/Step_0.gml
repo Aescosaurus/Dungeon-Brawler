@@ -8,7 +8,7 @@ if( timer_is_done( shot_timer ) )
 	if( cur_shot < barrage_size )
 	{
 		var player = get_player()
-		bullet_single( x,y,enemy_jelly_bullet_obj,
+		bullet_single( x,y,enemy_alien_bullet_obj,
 			get_target_angle( x,y,player.x,player.y ),0.1 )
 			
 		cur_shot += 1

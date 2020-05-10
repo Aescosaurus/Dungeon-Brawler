@@ -1,6 +1,5 @@
 var dt = get_delta_time()
 
-shot_timer[0] += dt
 if( instance_exists( target ) )
 {
 	ai_maintain_distance( target,target_dist,move_speed )
@@ -23,7 +22,8 @@ if( timer_is_done( shot_timer ) )
 {
 	shot_timer[0] = 0.0
 	bullet_shotgun( x,y,enemy_alien_bullet_obj,
-		0.0,shot_count,bullet_spread,pi / 32.0 )
+		shot_angle,shot_count,bullet_spread,pi / 32.0 )
+	shot_angle += shot_rot_speed
 }
 
 anim_timer[0] += dt
