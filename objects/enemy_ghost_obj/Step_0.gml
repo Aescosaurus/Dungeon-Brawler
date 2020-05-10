@@ -4,11 +4,12 @@ var dt = get_delta_time()
 var player = get_player()
 if( ai_maintain_distance( player,follow_dist,move_speed ) )
 {
-	// Animation stuff.
-	anim_timer[0] += dt
-	if( timer_is_done( anim_timer ) ) anim_timer[0] = 0.0
-	anim_walk( anim_timer,1.0 )
 }
+
+// Animation stuff.
+anim_timer[0] += dt
+if( timer_is_done( anim_timer ) ) anim_timer[0] = 0.0
+anim_walk( anim_timer,1.0 )
 
 // Attack player.
 shoot_timer[0] += dt

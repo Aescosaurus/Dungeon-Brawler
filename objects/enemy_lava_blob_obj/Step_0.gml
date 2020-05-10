@@ -1,12 +1,12 @@
 var dt = get_delta_time()
 
+anim_timer[0] += dt
+if( timer_is_done( anim_timer ) ) anim_timer[0] = 0.0
+anim_walk( anim_timer,0.94 )
+
 if( !shoot_mode )
 {
 	ai_follow_target( get_player(),move_speed )
-	
-	anim_timer[0] += dt
-	if( timer_is_done( anim_timer ) ) anim_timer[0] = 0.0
-	anim_walk( anim_timer,0.94 )
 	
 	move_timer[0] += dt
 	if( timer_is_done( move_timer ) )
