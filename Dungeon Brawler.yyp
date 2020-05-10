@@ -111,6 +111,14 @@
             }
         },
         {
+            "Key": "0ac49c1b-3b6b-46c7-86ea-253cdddecae0",
+            "Value": {
+                "id": "0dd88515-e5ea-4bfa-974b-d1047d331756",
+                "resourcePath": "sprites\\boss_blob_spr\\boss_blob_spr.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "0b296509-654a-418e-bc75-8cd3e6c0465f",
             "Value": {
                 "id": "0e1365de-9720-4e9b-a741-01badedd9cf2",
@@ -164,6 +172,14 @@
                 "id": "e8c8cf3c-79c4-4623-9d83-9456e008a865",
                 "resourcePath": "scripts\\bullet_single\\bullet_single.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "1108ad24-57d7-4698-9f1e-24bdad1b194f",
+            "Value": {
+                "id": "d3307a19-71ae-4ee6-a2a6-e8ac6ccca446",
+                "resourcePath": "sprites\\enemy_monster_spr\\enemy_monster_spr.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -551,6 +567,14 @@
             }
         },
         {
+            "Key": "44c4d93c-e36a-44cc-ad69-5881026f49aa",
+            "Value": {
+                "id": "49468483-dc43-4642-9ddd-ac8fdc8d1e47",
+                "resourcePath": "objects\\enemy_monster_obj\\enemy_monster_obj.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "458e176f-2379-46cd-b03f-5290144c1b78",
             "Value": {
                 "id": "0f4f6a47-df8a-47f4-923e-b3d949284536",
@@ -732,6 +756,14 @@
                 "id": "3b09cf69-b40b-4725-a415-fdf47e4d5e5c",
                 "resourcePath": "scripts\\particle_spawn_fireworks\\particle_spawn_fireworks.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "6c4e4434-ac42-4017-945e-ca96d8682ef9",
+            "Value": {
+                "id": "b183db4f-c668-4ec6-8fcc-fb2413b568f5",
+                "resourcePath": "sprites\\boss_shark_spr\\boss_shark_spr.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -1351,6 +1383,14 @@
             }
         },
         {
+            "Key": "cf579490-f117-492e-8e1e-d88eb4876c91",
+            "Value": {
+                "id": "a43c9a74-768d-4a1e-9050-c39156671f97",
+                "resourcePath": "scripts\\handle_other_collision\\handle_other_collision.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "cfd3769b-a130-4f67-a27f-e3608d69395c",
             "Value": {
                 "id": "b0691c19-f933-41b6-b205-4e3d8662dad1",
@@ -1588,6 +1628,7 @@
         "4e58ea7d-e6ff-4c31-b423-bf6f6b9dabf9",
         "fb01de0a-9b04-43e5-8077-4a486b004db1",
         "966452c2-675a-4f8b-82fd-b2d400145303",
+        "cf579490-f117-492e-8e1e-d88eb4876c91",
         "4ac779d7-1cb8-4c14-a2a3-e6fea4a0f540",
         "d2e349fd-7b95-4421-b2ae-6a718365c0f0",
         "49a16406-9051-4862-8bd1-7cc2b443d905",

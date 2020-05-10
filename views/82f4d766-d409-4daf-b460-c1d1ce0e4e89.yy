@@ -5,7 +5,8 @@
     "name": "82f4d766-d409-4daf-b460-c1d1ce0e4e89",
     "children": [
         "fb01de0a-9b04-43e5-8077-4a486b004db1",
-        "966452c2-675a-4f8b-82fd-b2d400145303"
+        "966452c2-675a-4f8b-82fd-b2d400145303",
+        "cf579490-f117-492e-8e1e-d88eb4876c91"
     ],
     "filterType": "GMScript",
     "folderName": "movement",
