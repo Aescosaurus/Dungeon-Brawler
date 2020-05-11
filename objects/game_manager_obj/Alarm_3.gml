@@ -1,7 +1,7 @@
-instance_destroy( player_bullet_base_obj,false )
-instance_destroy( enemy_bullet_base_obj,false )
-instance_destroy( particle_obj,false )
-instance_destroy( enemy_base_obj,false ) // Just in case.
+instance_destroy( player_bullet_base_obj )
+instance_destroy( enemy_bullet_base_obj )
+instance_destroy( particle_obj )
+instance_destroy( enemy_base_obj ) // Just in case.
 
 alarm_set( 2,0.0 )
 

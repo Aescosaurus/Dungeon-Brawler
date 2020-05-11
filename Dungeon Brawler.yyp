@@ -479,6 +479,14 @@
             }
         },
         {
+            "Key": "39afa007-c85b-4023-b323-6c7cbf5fda81",
+            "Value": {
+                "id": "92a51f38-f36e-47ac-bdb3-10b25bc544e2",
+                "resourcePath": "objects\\boss_blob_obj\\boss_blob_obj.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "3a9e8b4e-5969-4619-b0a6-c43c40429344",
             "Value": {
                 "id": "57067e08-a666-49d3-b859-c512eb79c6f2",
@@ -1435,6 +1443,14 @@
             "Value": {
                 "id": "9b58ea38-0f45-429a-8e4e-544d009248a1",
                 "resourcePath": "objects\\enemy_slime_bullet_obj\\enemy_slime_bullet_obj.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "d9bda70f-6a4f-4194-8ce7-227ee3f2c055",
+            "Value": {
+                "id": "3c21fb9c-55f7-455b-9444-2969fbf939e4",
+                "resourcePath": "objects\\boss_shark_obj\\boss_shark_obj.yy",
                 "resourceType": "GMObject"
             }
         },
