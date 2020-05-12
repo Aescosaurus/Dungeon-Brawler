@@ -5,25 +5,31 @@ anim_timer[0] += dt
 if( timer_is_done( anim_timer ) ) anim_timer[0] = 0.0
 anim_walk( anim_timer,0.97 )
 
-// // Ai movement stuff.
-// var player = get_player()
-// ai_follow_target( player,move_speed )
-// image_xscale = ( player.x < x ) ? -abs( image_xscale ) : abs( image_xscale )
-// 
-// // Attack player.
-// shoot_timer[0] += dt
-// if( timer_is_done( shoot_timer ) )
-// {
-// 	shoot_timer[0] = 0.0
-// 	
-// 	bullet_shotgun( x,y,enemy_snake_bullet_obj,
-// 		get_target_angle( x,y,player.x,player.y ),
-// 		random_range( 2,5 ),shot_dev,0.0 )
-// }
-// 
-// circle_timer[0] += dt
-// if( timer_is_done( circle_timer ) )
-// {
-// 	circle_timer[0] = 0.0
-// 	bullet_circle( x,y,enemy_snake_bullet_obj,5,0.0 )
-// }
+retarget_timer[0] += dt
+if( timer_is_done( retarget_timer ) )
+{
+	retarget_timer[0] = 0.0
+	var player = get_player()
+	x_vel = player.x - x
+	y_vel = player.y - y
+	var len = get_len( x_vel,y_vel )
+	x_vel = x_vel / len * move_speed
+	y_vel = y_vel / len * move_speed
+	
+	if( target_player )
+	{
+		x_vel *= -random_range( 0.9,1.2 )
+		y_vel *= -random_range( 0.9,1.2 )
+		
+		bullet_circle( x,y,enemy_snake_bullet_obj,
+			random_range( 3,7 ),pi / 12.0 )
+	}
+	target_player = !target_player
+	
+	bullet_shotgun( x,y,enemy_crab_bullet_obj,
+		random_range( 0.0,pi * 2.0 ),
+		random_range( 2,5 ),
+		pi / 6.0,pi / 12.0 )
+}
+
+handle_block_collision( x_vel * dt,y_vel * dt )
