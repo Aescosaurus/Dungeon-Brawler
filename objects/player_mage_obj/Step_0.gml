@@ -18,6 +18,7 @@ if( timer_is_done( shoot_timer ) && ( x_vel != 0.0 || y_vel != 0.0 ) )
 	bullet.image_angle = radtodeg( -arctan2( y_vel,x_vel ) + pi + pi / 4.0 )
 	
 	// shake_screen( 0.5 )
+	audio_play_sound( player_1_shoot_aud,1,false )
 }
 
 if( attacking )

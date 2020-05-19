@@ -31,6 +31,8 @@ if( timer_is_done( attack_timer ) && mouse_check_button( mb_left ) )
 		// bullet.y_vel = y_vel / len
 		// bullet.image_angle = radtodeg( -arctan2( y_vel,x_vel ) - pi / 2.5 + i * ( pi / 8.0 ) )
 	}
+	
+	audio_play_sound( player_3_shoot_aud,1,false )
 	cam_shake( 2.0 )
 }
 

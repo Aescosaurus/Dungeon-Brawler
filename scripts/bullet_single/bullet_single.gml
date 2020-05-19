@@ -6,6 +6,8 @@ var dev = argument4
 
 var rng_angle = angle + random_range( -dev,dev )
 
+audio_play_sound( enemy_shoot_aud,1,false )
+
 var bullet = instance_create_layer( bx,by,"instances",bullet_type )
 bullet.x_vel = cos( rng_angle )
 bullet.y_vel = sin( rng_angle )

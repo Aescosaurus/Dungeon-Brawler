@@ -13,4 +13,6 @@ for( var i = 0; i < random_range( 3,5 ); ++i )
 		random_range( 15,23 ) )
 }
 
+audio_play_sound( level_complete_aud,1,false )
+
 alarm_set( 2,0.55 * 60.0 )

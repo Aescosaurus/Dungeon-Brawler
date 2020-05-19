@@ -1,8 +1,8 @@
 {
-    "id": "92dce6e3-812b-430f-a20a-c1af7ba61657",
+    "id": "d4eba65b-83d4-4147-897b-1bc6e951c11d",
     "modelName": "GMSound",
     "mvc": "1.0",
-    "name": "volcano_mus",
+    "name": "player_3_shoot_aud",
     "audioGroupGuid": "7b2c4976-1e09-44e5-8256-c527145e03bb",
     "bitDepth": 1,
     "bitRate": 128,
@@ -10,5 +10,5 @@
     "preload": false,
     "sampleRate": 44100,
     "type": 0,
-    "volume": 0.15
+    "volume": 1
 }
