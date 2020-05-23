@@ -14,7 +14,12 @@ if( --hp < 1 )
 	
 	if( instance_number( player_base_obj ) < 2 )
 	{
-		room_goto( game_over_room )
+		global.player1 = true
+		global.player2 = true
+		global.player3 = true
+		instance_destroy( game_manager_obj )
+		room_goto( menu_room )
+		// room_goto( game_over_room )
 	}
 	
 	instance_destroy()

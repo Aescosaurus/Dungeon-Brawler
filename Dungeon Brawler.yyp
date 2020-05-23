@@ -1055,6 +1055,14 @@
             }
         },
         {
+            "Key": "92d7323a-2328-4e4d-afd5-3187c2ff1ee6",
+            "Value": {
+                "id": "af81d27b-8742-4bc7-93c2-9465fe50725a",
+                "resourcePath": "sounds\\player_3_shoot_2_aud\\player_3_shoot_2_aud.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "92dce6e3-812b-430f-a20a-c1af7ba61657",
             "Value": {
                 "id": "438063af-b785-497b-9341-5f3c249ce20e",

@@ -33,7 +33,7 @@ if( timer_is_done( attack_timer ) && mouse_check_button( mb_left ) )
 	}
 	
 	audio_play_sound( player_3_shoot_aud,1,false )
-	cam_shake( 2.0 )
+	cam_shake( 1.5 )
 }
 
 if( attacking )
