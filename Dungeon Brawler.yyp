@@ -327,6 +327,14 @@
             }
         },
         {
+            "Key": "1e5ee8a2-6bd7-4dcf-9b76-d0c9d9cc8449",
+            "Value": {
+                "id": "ccef78e1-b0ae-4953-9adc-d21cac676d60",
+                "resourcePath": "sprites\\tutorial_spr\\tutorial_spr.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "1f2bf42a-0ecc-4bcf-bfa0-034359e1e1e0",
             "Value": {
                 "id": "55abb792-68fb-4e54-a37a-be4221508159",
@@ -796,6 +804,14 @@
                 "id": "3b09cf69-b40b-4725-a415-fdf47e4d5e5c",
                 "resourcePath": "scripts\\particle_spawn_fireworks\\particle_spawn_fireworks.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "6c28cc38-54ab-46ab-9bf8-2bdf2ca5ccac",
+            "Value": {
+                "id": "b650034d-468d-4c47-aac5-c7cdc53e4bb7",
+                "resourcePath": "objects\\tutorial_obj\\tutorial_obj.yy",
+                "resourceType": "GMObject"
             }
         },
         {
