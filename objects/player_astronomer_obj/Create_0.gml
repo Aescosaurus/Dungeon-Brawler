@@ -14,5 +14,6 @@ if( variable_global_exists( "player3" ) && !global.player3 )
 }
 
 retarget_timer = timer_create( 1.5 )
+retarget_timer[0] += retarget_timer[1]
 x_move = 0.0
 y_move = 0.0

@@ -13,7 +13,7 @@ if( mouse_check_button( mb_left ) && !ai_enabled )
 	if( x_vel > 0.0 ) image_xscale = 1.0
 	else if( x_vel < 0.0 ) image_xscale = -1.0
 }
-else if( ai_enabled )
+else if( ai_enabled && instance_number( enemy_base_obj ) > 0 )
 {
 	retarget_timer[0] += dt
 	if( timer_is_done( retarget_timer ) )
