@@ -807,6 +807,14 @@
             }
         },
         {
+            "Key": "691e010b-b943-4d95-b461-8e0b9f8426af",
+            "Value": {
+                "id": "ca207329-d79d-4d86-b2eb-f9c9fd11f0d2",
+                "resourcePath": "scripts\\level_reset_music\\level_reset_music.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "697b5e5a-f2c4-4b88-a334-a2d3b1ac9dab",
             "Value": {
                 "id": "3b09cf69-b40b-4725-a415-fdf47e4d5e5c",
@@ -1823,6 +1831,7 @@
         "0b2edb1c-f5e3-4e40-b3db-6db2cb246f14",
         "63740785-0cd6-4546-901b-9c020b1af8bd",
         "e84b2c5e-691e-42c3-9f29-f60244dcf17f",
+        "691e010b-b943-4d95-b461-8e0b9f8426af",
         "10b13529-f7e0-4d75-809e-424b83d3f3dc",
         "cc3f7d72-bc05-4c78-ac81-61c3844e3232",
         "b12ac098-51e4-4d18-897e-2929933587bd",

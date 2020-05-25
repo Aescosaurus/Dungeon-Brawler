@@ -40,6 +40,8 @@ for( var i = 0; i < random_range( low,high ); ++i )
 
 if( level % 7 == 0 )
 {
+	if( level > 0 ) level_reset_music()
+	
 	for( var i = 0; i < floor( level / 7 ); ++i )
 	{
 		var x_pos = -1

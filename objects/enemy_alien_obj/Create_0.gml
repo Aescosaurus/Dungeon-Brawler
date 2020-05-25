@@ -8,4 +8,4 @@ target_player = noone
 retarget_dist = 23
 
 shot_counter = 0
-shot_freq = 2
+shot_freq = 3

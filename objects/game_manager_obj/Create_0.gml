@@ -1,4 +1,4 @@
-cur_level = 0
+cur_level = 6
 done_loading = false
 
 level_generate()
