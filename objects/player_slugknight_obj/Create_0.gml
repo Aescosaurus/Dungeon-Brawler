@@ -7,7 +7,12 @@ maxHp = 5
 hp = maxHp
 regen = 0.4
 
+ai_enabled = false
 if( variable_global_exists( "player2" ) && !global.player2 )
 {
-	instance_destroy( id,false )
+	ai_enabled = true
 }
+
+target_enemy = noone
+ideal_dist = 5
+angled_shot_thresh = 25

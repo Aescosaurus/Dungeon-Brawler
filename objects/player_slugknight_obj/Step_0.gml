@@ -1,5 +1,42 @@
 var dt = get_delta_time()
-var vels = handle_player_movement( ord( "W" ),ord( "S" ),ord( "A" ),ord( "D" ),move_speed )
+var vels = array_create( 2 )
+if( !ai_enabled )
+{
+	vels = handle_player_movement( ord( "W" ),ord( "S" ),ord( "A" ),ord( "D" ),move_speed )
+}
+else
+{
+	if( instance_exists( target_enemy ) )
+	{
+		vels[0] = target_enemy.x - x
+		vels[1] = target_enemy.y - y
+		
+		if( abs( vels[0] ) < angled_shot_thresh ) vels[0] = 0.0
+		if( abs( vels[1] ) < angled_shot_thresh ) vels[1] = 0.0
+		
+		if( vels[0] != 0.0 ) vels[0] /= abs( vels[0] )
+		if( vels[1] != 0.0 ) vels[1] /= abs( vels[1] )
+		
+		var len = get_len( vels[0],vels[1] )
+		if( len != 0.0 )
+		{
+			if( get_len_sq( target_enemy.x - x,target_enemy.y - y ) < ideal_dist * ideal_dist )
+			{
+				vels[0] *= -1.0
+				vels[1] *= -1.0
+			}
+			handle_block_collision( vels[0] / len * move_speed * dt,
+				vels[1] / len * move_speed * dt )
+		}
+		
+		vels[0] = target_enemy.x - x
+		vels[1] = target_enemy.y - y
+	}
+	else
+	{
+		target_enemy = find_closest_enemy()
+	}
+}
 var x_vel = vels[0]
 var y_vel = vels[1]
 var len = get_len( x_vel,y_vel )
