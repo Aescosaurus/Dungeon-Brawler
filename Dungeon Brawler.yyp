@@ -1303,6 +1303,14 @@
             }
         },
         {
+            "Key": "aeaf2c68-154b-499f-9d0a-25180fcc89ba",
+            "Value": {
+                "id": "98d2de95-3a0c-4b11-beaa-155818f054be",
+                "resourcePath": "objects\\tutorial_2_obj\\tutorial_2_obj.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "af3db80c-5511-4c88-bf83-e48fe45cad4a",
             "Value": {
                 "id": "bc51b2fc-487a-40dc-874b-9219c6716770",
@@ -1324,6 +1332,14 @@
                 "id": "417f9530-9988-491b-a3db-d362a4de2f59",
                 "resourcePath": "sounds\\enemy_ouch_aud\\enemy_ouch_aud.yy",
                 "resourceType": "GMSound"
+            }
+        },
+        {
+            "Key": "b6430f26-9312-4c65-984f-70e47d113240",
+            "Value": {
+                "id": "98bea557-3732-41da-a237-aad0fbdf26ab",
+                "resourcePath": "sprites\\tutorial_2_spr\\tutorial_2_spr.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
