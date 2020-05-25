@@ -7,7 +7,12 @@ maxHp = 2
 hp = maxHp
 regen = 0.1
 
+ai_enabled = false
 if( variable_global_exists( "player3" ) && !global.player3 )
 {
-	instance_destroy( id,false )
+	ai_enabled = true
 }
+
+retarget_timer = timer_create( 1.5 )
+x_move = 0.0
+y_move = 0.0

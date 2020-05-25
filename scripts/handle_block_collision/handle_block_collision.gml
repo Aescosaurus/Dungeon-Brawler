@@ -7,6 +7,8 @@ var x_dir = test_x_move / abs( test_x_move )
 var y_dir = test_y_move / abs( test_y_move )
 var tilemap = layer_tilemap_get_id( "tilemap" )
 
+var hit_wall = false
+
 if( tilemap_get_at_pixel( tilemap,x + half_width * x_dir,y ) < 2 )
 {
 	x += test_x_move
@@ -19,6 +21,7 @@ else if( test_x_move != 0.0 )
 		x += x_dir
 		if( ++total_move > abs( test_x_move ) ) break
 	}
+	hit_wall = true
 }
 
 if( tilemap_get_at_pixel( tilemap,x,y + half_height * y_dir ) < 2 )
@@ -33,4 +36,7 @@ else if( test_y_move != 0.0 )
 		y += y_dir
 		if( ++total_move > abs( test_y_move ) ) break
 	}
+	hit_wall = true
 }
+
+return( hit_wall )
