@@ -839,6 +839,14 @@
             }
         },
         {
+            "Key": "70175e95-0c48-4a58-9df4-2969fa40a1e1",
+            "Value": {
+                "id": "18ec8b61-706c-46f8-a969-1392f5e60c81",
+                "resourcePath": "scripts\\find_farthest_enemy\\find_farthest_enemy.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "72681c59-c266-4764-a63d-c3f554554439",
             "Value": {
                 "id": "f3df28d1-010a-43a0-a38a-a9034b53c2eb",
@@ -1351,6 +1359,14 @@
             }
         },
         {
+            "Key": "baeae806-cd1e-47a8-a453-350208fe03fe",
+            "Value": {
+                "id": "367adad7-356d-4836-bbdb-15e90047e21d",
+                "resourcePath": "scripts\\find_closest_enemy\\find_closest_enemy.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "bbfd2d7c-0c90-4822-a807-cd7da1c0a38d",
             "Value": {
                 "id": "9e3bbd16-f90b-4650-bb9d-ca95c7c6a422",
@@ -1742,6 +1758,8 @@
         "a49f6b32-15d8-45e6-a7da-9ab61c1caadc",
         "397933f9-7052-4996-a2fa-797b478beec1",
         "d76377fb-ec37-4895-ba8d-03c20b76b7c2",
+        "baeae806-cd1e-47a8-a453-350208fe03fe",
+        "70175e95-0c48-4a58-9df4-2969fa40a1e1",
         "42cd1ff3-43ef-4685-ab12-f29d383ac362",
         "cdea9e75-8768-4400-a662-7b66257362d5",
         "aacd00fc-80ff-47a5-92fb-7e95efbb952d",
