@@ -1,6 +1,6 @@
 hp -= other.damage
 // instance_destroy( other )
-cam_shake( other.damage )
+cam_shake( other.damage / 5.0 )
 
 if( hp <= 0 )
 {
