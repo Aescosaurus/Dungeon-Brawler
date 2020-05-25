@@ -42,7 +42,8 @@ else if( ai_enabled )
 // Handle shooting magic missiles.
 attack_timer[0] += dt
 if( timer_is_done( attack_timer ) &&
-	( mouse_check_button( mb_left ) || ( ai_enabled && random_range( 0,100 ) < 10 ) ) )
+	( mouse_check_button( mb_left ) ||
+	( ai_enabled && random_range( 0,100 ) < 10 && instance_number( enemy_base_obj ) > 0 ) ) )
 {
 	attack_timer[0] = 0.0
 	attacking = true
