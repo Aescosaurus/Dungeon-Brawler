@@ -12,6 +12,7 @@ if( variable_global_exists( "player3" ) && !global.player3 )
 {
 	ai_enabled = true
 }
+else spawn_player_arrow()
 
 retarget_timer = timer_create( 1.5 )
 retarget_timer[0] += retarget_timer[1]

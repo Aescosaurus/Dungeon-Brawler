@@ -1,0 +1,1 @@
+if( !hidden ) draw_self()

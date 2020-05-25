@@ -695,6 +695,14 @@
             }
         },
         {
+            "Key": "53a9866f-f3e7-470b-bdc9-b8d266b5d825",
+            "Value": {
+                "id": "b195dc61-a602-4423-9696-688d6678d11e",
+                "resourcePath": "scripts\\spawn_player_arrow\\spawn_player_arrow.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "53f1d3dc-48c3-4b3e-9b90-6e0d18601e5f",
             "Value": {
                 "id": "57deb995-2724-439a-bbeb-b3b13e5d8a04",
@@ -907,6 +915,14 @@
             "Value": {
                 "id": "00d81554-8ef0-4012-b208-f4b6c6d3fb3a",
                 "resourcePath": "objects\\p1controls_obj\\p1controls_obj.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "7b50600e-92cf-4e8c-bab3-3de9b4a4406f",
+            "Value": {
+                "id": "b0a29726-4aa9-43e6-b018-e4c9e45a208d",
+                "resourcePath": "objects\\player_select_arrow_obj\\player_select_arrow_obj.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -1139,6 +1155,14 @@
             "Value": {
                 "id": "c1df8edc-f0d4-4bb0-bfab-bd04fbf43cde",
                 "resourcePath": "sprites\\sea_button_spr\\sea_button_spr.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "99eb725d-9027-45d4-adbd-997792929fb7",
+            "Value": {
+                "id": "3f94a617-8f93-42c7-a33a-f9a2397b198a",
+                "resourcePath": "sprites\\player_select_arrow_spr\\player_select_arrow_spr.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -1776,6 +1800,7 @@
         "d76377fb-ec37-4895-ba8d-03c20b76b7c2",
         "baeae806-cd1e-47a8-a453-350208fe03fe",
         "70175e95-0c48-4a58-9df4-2969fa40a1e1",
+        "53a9866f-f3e7-470b-bdc9-b8d266b5d825",
         "42cd1ff3-43ef-4685-ab12-f29d383ac362",
         "cdea9e75-8768-4400-a662-7b66257362d5",
         "aacd00fc-80ff-47a5-92fb-7e95efbb952d",

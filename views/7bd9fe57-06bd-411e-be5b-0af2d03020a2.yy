@@ -13,7 +13,8 @@
         "eec422f7-329f-49e0-b6c7-baa9f1379cf4",
         "3c10af50-83cc-438b-a04a-7157d2249127",
         "1e5ee8a2-6bd7-4dcf-9b76-d0c9d9cc8449",
-        "b6430f26-9312-4c65-984f-70e47d113240"
+        "b6430f26-9312-4c65-984f-70e47d113240",
+        "99eb725d-9027-45d4-adbd-997792929fb7"
     ],
     "filterType": "GMSprite",
     "folderName": "ui",

@@ -12,6 +12,7 @@ if( variable_global_exists( "player1" ) && !global.player1 )
 {
 	ai_enabled = true
 }
+else spawn_player_arrow()
 
 too_close_dist = 50
 target_enemy = noone
