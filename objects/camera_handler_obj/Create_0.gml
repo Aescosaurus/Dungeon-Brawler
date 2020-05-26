@@ -8,4 +8,4 @@ y_shake = 0.0
 shake_decay = 0.9
 
 zoom = 1.0
-zoom_decay = 0.99
+zoom_decay = 0.98
