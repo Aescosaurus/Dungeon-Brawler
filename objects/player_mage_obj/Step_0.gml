@@ -34,6 +34,45 @@ else
 	{
 		target_enemy = find_closest_enemy()
 	}
+	
+	if( abs( old_x - x ) < repo_thresh && abs( old_y - y ) < repo_thresh )
+	{
+		reposition_timer[0] += dt
+		if( timer_is_done( reposition_timer ) )
+		{
+			repo_move_timer[0] += dt
+			
+			if( repo_x_move != 0.0 && repo_y_move != 0.0 )
+			{
+				handle_block_collision( repo_x_move * move_speed * dt,
+					repo_y_move * move_speed * dt )
+			}
+			else
+			{
+				repo_x_move = random_range( -1.0,1.0 )
+				repo_y_move = random_range( -1.0,1.0 )
+				var len = get_len( repo_x_move,repo_y_move )
+				if( len != 0.0 )
+				{
+					repo_x_move /= len
+					repo_y_move /= len
+				}
+			}
+			
+			if( timer_is_done( repo_move_timer ) )
+			{
+				reposition_timer[0] = 0.0
+				repo_move_timer[0] = 0.0
+			}
+		}
+	}
+	else
+	{
+		reposition_timer[0] = 0.0
+	}
+	
+	old_x = x
+	old_y = y
 }
 var x_vel = vels[0]
 var y_vel = vels[1]
