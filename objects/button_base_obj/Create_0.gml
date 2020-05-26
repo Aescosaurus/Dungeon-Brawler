@@ -6,3 +6,6 @@ my_room = noone
 player1 = false
 player2 = false
 player3 = false
+
+playing_music = false
+my_music = noone

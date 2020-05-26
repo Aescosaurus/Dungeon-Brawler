@@ -1,4 +1,4 @@
-audio_stop_all()
+audio_stop_sound( menu_mus )
 
 song = noone
 if( room == menu_room )
@@ -7,18 +7,15 @@ if( room == menu_room )
 }
 else if( room == desert_room )
 {
-	if( random_range( 0,100 ) < 30 ) song = desert_mus
-	else song = ambient_desert_mus
+	song = desert_mus
 }
 else if( room == sea_room )
 {
-	if( random_range( 0,100 ) < 30 ) song = sea_mus
-	else song = ambient_sea_mus
+	song = sea_mus
 }
 else if( room == volcano_room )
 {
-	if( random_range( 0,100 ) < 30 ) song = volcano_mus
-	else song = ambient_volcano_mus
+	song = volcano_mus
 }
 
 audio_play_sound( song,1,true )
