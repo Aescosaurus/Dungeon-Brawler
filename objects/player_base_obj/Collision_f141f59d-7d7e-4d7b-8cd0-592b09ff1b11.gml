@@ -21,7 +21,7 @@ if( --hp < 1 )
 		room_goto( menu_room )
 		// room_goto( game_over_room )
 	}
-	else
+	else if( !ai_enabled )
 	{
 		if( instance_exists( player_mage_obj ) && player_mage_obj.ai_enabled )
 		{
