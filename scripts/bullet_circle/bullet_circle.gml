@@ -12,3 +12,6 @@ for( var i = -count / 2; i < count / 2; ++i )
 	bullet_single( bx,by,bullet_type,
 		angle + i * spread,dev )
 }
+
+audio_stop_sound( enemy_shoot_aud )
+audio_play_sound( enemy_shoot_aud,1,false )

@@ -1,4 +1,7 @@
 audio_stop_sound( menu_mus )
+audio_stop_sound( desert_mus )
+audio_stop_sound( sea_mus )
+audio_stop_sound( volcano_mus )
 
 song = noone
 if( room == menu_room )
