@@ -21,6 +21,33 @@ if( --hp < 1 )
 		room_goto( menu_room )
 		// room_goto( game_over_room )
 	}
+	else
+	{
+		if( instance_exists( player_mage_obj ) && player_mage_obj.ai_enabled )
+		{
+			player_mage_obj.ai_enabled = false
+			with( player_mage_obj )
+			{
+				spawn_player_arrow()
+			}
+		}
+		else if( instance_exists( player_slugknight_obj ) && player_slugknight_obj.ai_enabled )
+		{
+			player_slugknight_obj.ai_enabled = false
+			with( player_slugknight_obj )
+			{
+				spawn_player_arrow()
+			}
+		}
+		else if( instance_exists( player_astronomer_obj ) && player_astronomer_obj.ai_enabled )
+		{
+			player_astronomer_obj.ai_enabled = false
+			with( player_astronomer_obj )
+			{
+				spawn_player_arrow()
+			}
+		}
+	}
 	
 	instance_destroy()
 }
