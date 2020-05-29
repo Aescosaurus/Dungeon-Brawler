@@ -1719,6 +1719,14 @@
             }
         },
         {
+            "Key": "eeeab3db-ab0e-4482-952d-947771091969",
+            "Value": {
+                "id": "01dcbc28-4c7f-4576-9a21-be802dbb0f64",
+                "resourcePath": "fonts\\pixel_font\\pixel_font.yy",
+                "resourceType": "GMFont"
+            }
+        },
+        {
             "Key": "f024f6b6-e918-4f9c-a40b-05fd26742cd6",
             "Value": {
                 "id": "41280485-1237-4ab2-be75-b0aec161368e",
